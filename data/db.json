@@ -1,0 +1,470 @@
+[
+  {
+    "country": "India",
+    "city": "New Delhi",
+    "flag": "https://flagcdn.com/in.svg",
+    "description": "The capital city of India, rich with Mughal-era architecture and bustling bazaars.",
+    "gallery": [
+      "https://example.com/images/newdelhi1.jpg",
+      "https://example.com/images/newdelhi2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 299,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "10% off on early booking"
+    },
+    "reviews": 4.5,
+    "reviewCount": 320
+  },
+  {
+    "country": "India",
+    "city": "Goa",
+    "flag": "https://flagcdn.com/in.svg",
+    "description": "India's beach paradise, known for nightlife, Portuguese heritage, and sunsets.",
+    "gallery": [
+      "https://example.com/images/goa1.jpg",
+      "https://example.com/images/goa2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 350,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Free beach dinner on Day 1"
+    },
+    "reviews": 4.7,
+    "reviewCount": 410
+  },
+  {
+    "country": "France",
+    "city": "Paris",
+    "flag": "https://flagcdn.com/fr.svg",
+    "description": "The romantic capital of the world with iconic landmarks and rich art culture.",
+    "gallery": [
+      "https://example.com/images/paris1.jpg",
+      "https://example.com/images/paris2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 899,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Free Louvre entry pass"
+    },
+    "reviews": 4.8,
+    "reviewCount": 850
+  },
+  {
+    "country": "France",
+    "city": "Marseille",
+    "flag": "https://flagcdn.com/fr.svg",
+    "description": "A port city in southern France with historic charm and Mediterranean vibes.",
+    "gallery": [
+      "https://example.com/images/marseille1.jpg",
+      "https://example.com/images/marseille2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 720,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free Old Port boat ride"
+    },
+    "reviews": 4.2,
+    "reviewCount": 180
+  },
+  {
+    "country": "Japan",
+    "city": "Tokyo",
+    "flag": "https://flagcdn.com/jp.svg",
+    "description": "Futuristic city known for skyscrapers, anime culture, and ancient temples.",
+    "gallery": [
+      "https://example.com/images/tokyo1.jpg",
+      "https://example.com/images/tokyo2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 1050,
+      "stayDuration": "5 Nights / 6 Days",
+      "offer": "Free Mt. Fuji day tour"
+    },
+    "reviews": 4.9,
+    "reviewCount": 1020
+  },
+  {
+    "country": "Japan",
+    "city": "Nara",
+    "flag": "https://flagcdn.com/jp.svg",
+    "description": "Famous for its free-roaming deer, peaceful temples, and historical treasures.",
+    "gallery": [
+      "https://example.com/images/nara1.jpg",
+      "https://example.com/images/nara2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 790,
+      "stayDuration": "2 Nights / 3 Days",
+      "offer": "Free deer food with city tour"
+    },
+    "reviews": 4.4,
+    "reviewCount": 350
+  },
+  {
+    "country": "Italy",
+    "city": "Rome",
+    "flag": "https://flagcdn.com/it.svg",
+    "description": "The Eternal City, where ancient ruins and Renaissance art collide beautifully.",
+    "gallery": [
+      "https://example.com/images/rome1.jpg",
+      "https://example.com/images/rome2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 870,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free Colosseum guided tour"
+    },
+    "reviews": 4.6,
+    "reviewCount": 620
+  },
+  {
+    "country": "Italy",
+    "city": "Venice",
+    "flag": "https://flagcdn.com/it.svg",
+    "description": "A unique city of canals, gondolas, and stunning architecture.",
+    "gallery": [
+      "https://example.com/images/venice1.jpg",
+      "https://example.com/images/venice2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 890,
+      "stayDuration": "2 Nights / 3 Days",
+      "offer": "Romantic gondola ride included"
+    },
+    "reviews": 4.7,
+    "reviewCount": 540
+  },
+  {
+    "country": "USA",
+    "city": "New York",
+    "flag": "https://flagcdn.com/us.svg",
+    "description": "The Big Apple, a buzzing city of culture, skyscrapers, and endless entertainment.",
+    "gallery": [
+      "https://example.com/images/ny1.jpg",
+      "https://example.com/images/ny2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 999,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Free Statue of Liberty cruise"
+    },
+    "reviews": 4.7,
+    "reviewCount": 950
+  },
+  {
+    "country": "USA",
+    "city": "San Francisco",
+    "flag": "https://flagcdn.com/us.svg",
+    "description": "A scenic city famous for the Golden Gate Bridge, tech innovation, and steep streets.",
+    "gallery": [
+      "https://example.com/images/sf1.jpg",
+      "https://example.com/images/sf2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 940,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free Alcatraz Island tour"
+    },
+    "reviews": 4.5,
+    "reviewCount": 430
+  },
+  {
+    "country": "Spain",
+    "city": "Barcelona",
+    "flag": "https://flagcdn.com/es.svg",
+    "description": "A vibrant seaside city known for Gaudí’s architecture, art, and tapas culture.",
+    "gallery": [
+      "https://example.com/images/barcelona1.jpg",
+      "https://example.com/images/barcelona2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 780,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free Sagrada Familia entry"
+    },
+    "reviews": 4.6,
+    "reviewCount": 720
+  },
+  {
+    "country": "Spain",
+    "city": "Madrid",
+    "flag": "https://flagcdn.com/es.svg",
+    "description": "Spain's central capital, known for elegant boulevards, parks, and rich art collections.",
+    "gallery": [
+      "https://example.com/images/madrid1.jpg",
+      "https://example.com/images/madrid2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 710,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free Prado Museum tickets"
+    },
+    "reviews": 4.4,
+    "reviewCount": 610
+  },
+  {
+    "country": "Germany",
+    "city": "Berlin",
+    "flag": "https://flagcdn.com/de.svg",
+    "description": "The dynamic German capital filled with history, culture, and modern creativity.",
+    "gallery": [
+      "https://example.com/images/berlin1.jpg",
+      "https://example.com/images/berlin2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 820,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Free Berlin Wall museum pass"
+    },
+    "reviews": 4.5,
+    "reviewCount": 540
+  },
+  {
+    "country": "Germany",
+    "city": "Munich",
+    "flag": "https://flagcdn.com/de.svg",
+    "description": "A Bavarian city known for Oktoberfest, beer halls, and historic charm.",
+    "gallery": [
+      "https://example.com/images/munich1.jpg",
+      "https://example.com/images/munich2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 750,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free brewery tour"
+    },
+    "reviews": 4.3,
+    "reviewCount": 470
+  },
+  {
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "flag": "https://flagcdn.com/nl.svg",
+    "description": "The capital of canals, art museums, and vibrant street life.",
+    "gallery": [
+      "https://example.com/images/amsterdam1.jpg",
+      "https://example.com/images/amsterdam2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 860,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free canal cruise"
+    },
+    "reviews": 4.7,
+    "reviewCount": 680
+  },
+  {
+    "country": "Switzerland",
+    "city": "Zurich",
+    "flag": "https://flagcdn.com/ch.svg",
+    "description": "A global banking hub with stunning alpine scenery and lakeside beauty.",
+    "gallery": [
+      "https://example.com/images/zurich1.jpg",
+      "https://example.com/images/zurich2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 990,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free Lake Zurich boat ride"
+    },
+    "reviews": 4.6,
+    "reviewCount": 510
+  },
+  {
+    "country": "Austria",
+    "city": "Vienna",
+    "flag": "https://flagcdn.com/at.svg",
+    "description": "A cultural capital with imperial history, palaces, and classical music.",
+    "gallery": [
+      "https://example.com/images/vienna1.jpg",
+      "https://example.com/images/vienna2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 840,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Free opera house tour"
+    },
+    "reviews": 4.5,
+    "reviewCount": 480
+  },
+  {
+    "country": "Portugal",
+    "city": "Lisbon",
+    "flag": "https://flagcdn.com/pt.svg",
+    "description": "A coastal city with colorful streets, rich history, and delicious pastries.",
+    "gallery": [
+      "https://example.com/images/lisbon1.jpg",
+      "https://example.com/images/lisbon2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 720,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free tram tour"
+    },
+    "reviews": 4.4,
+    "reviewCount": 390
+  },
+  {
+    "country": "United Arab Emirates",
+    "city": "Dubai",
+    "flag": "https://flagcdn.com/ae.svg",
+    "description": "A futuristic city known for its skyline, shopping malls, and luxury experiences.",
+    "gallery": [
+      "https://example.com/images/dubai1.jpg",
+      "https://example.com/images/dubai2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 1200,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Free Burj Khalifa tickets"
+    },
+    "reviews": 4.8,
+    "reviewCount": 1350
+  },
+  {
+    "country": "United Arab Emirates",
+    "city": "Abu Dhabi",
+    "flag": "https://flagcdn.com/ae.svg",
+    "description": "The capital of the UAE, known for its rich culture, museums, and modern architecture.",
+    "gallery": [
+      "https://example.com/images/abudhabi1.jpg",
+      "https://example.com/images/abudhabi2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 950,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free Ferrari World tickets"
+    },
+    "reviews": 4.6,
+    "reviewCount": 880
+  },
+  {
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "flag": "https://flagcdn.com/sa.svg",
+    "description": "The capital of Saudi Arabia, combining traditional culture with modern skyscrapers.",
+    "gallery": [
+      "https://example.com/images/riyadh1.jpg",
+      "https://example.com/images/riyadh2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 850,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free Diriyah Heritage Village tour"
+    },
+    "reviews": 4.3,
+    "reviewCount": 420
+  },
+  {
+    "country": "Qatar",
+    "city": "Doha",
+    "flag": "https://flagcdn.com/qa.svg",
+    "description": "A rapidly developing city with modern art, grand architecture, and Arabian culture.",
+    "gallery": [
+      "https://example.com/images/doha1.jpg",
+      "https://example.com/images/doha2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 1050,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free Museum of Islamic Art tickets"
+    },
+    "reviews": 4.7,
+    "reviewCount": 630
+  },
+  {
+    "country": "Oman",
+    "city": "Muscat",
+    "flag": "https://flagcdn.com/om.svg",
+    "description": "A coastal city known for its ancient forts, beautiful beaches, and desert landscapes.",
+    "gallery": [
+      "https://example.com/images/muscat1.jpg",
+      "https://example.com/images/muscat2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 760,
+      "stayDuration": "2 Nights / 3 Days",
+      "offer": "Free desert safari experience"
+    },
+    "reviews": 4.4,
+    "reviewCount": 290
+  },
+  {
+    "country": "Egypt",
+    "city": "Cairo",
+    "flag": "https://flagcdn.com/eg.svg",
+    "description": "A city steeped in history with its iconic pyramids, ancient ruins, and vibrant culture.",
+    "gallery": [
+      "https://example.com/images/cairo1.jpg",
+      "https://example.com/images/cairo2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 670,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free Pyramid tour"
+    },
+    "reviews": 4.5,
+    "reviewCount": 1100
+  },
+  {
+    "country": "Israel",
+    "city": "Tel Aviv",
+    "flag": "https://flagcdn.com/il.svg",
+    "description": "A modern city known for its beautiful beaches, nightlife, and historical significance.",
+    "gallery": [
+      "https://example.com/images/telaviv1.jpg",
+      "https://example.com/images/telaviv2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 950,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Free Dead Sea tour"
+    },
+    "reviews": 4.7,
+    "reviewCount": 560
+  },
+  {
+    "country": "Turkey",
+    "city": "Istanbul",
+    "flag": "https://flagcdn.com/tr.svg",
+    "description": "A city bridging Europe and Asia with its stunning mosques, bazaars, and rich culture.",
+    "gallery": [
+      "https://example.com/images/istanbul1.jpg",
+      "https://example.com/images/istanbul2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 800,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free Bosphorus cruise"
+    },
+    "reviews": 4.6,
+    "reviewCount": 980
+  }
+]

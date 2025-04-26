@@ -5,8 +5,9 @@
     "flag": "https://flagcdn.com/in.svg",
     "description": "The capital city of India, rich with Mughal-era architecture and bustling bazaars.",
     "gallery": [
-      "https://example.com/images/newdelhi1.jpg",
-      "https://example.com/images/newdelhi2.jpg"
+      "https://images.pexels.com/photos/1007426/pexels-photo-1007426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/1542620/pexels-photo-1542620.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/2415399/pexels-photo-2415399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
     ],
     "isFav": true,
     "package": {
@@ -23,8 +24,9 @@
     "flag": "https://flagcdn.com/in.svg",
     "description": "India's beach paradise, known for nightlife, Portuguese heritage, and sunsets.",
     "gallery": [
-      "https://example.com/images/goa1.jpg",
-      "https://example.com/images/goa2.jpg"
+      "https://images.pexels.com/photos/4429334/pexels-photo-4429334.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/14384530/pexels-photo-14384530.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/2174656/pexels-photo-2174656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
     ],
     "isFav": true,
     "package": {
@@ -41,8 +43,9 @@
     "flag": "https://flagcdn.com/fr.svg",
     "description": "The romantic capital of the world with iconic landmarks and rich art culture.",
     "gallery": [
-      "https://example.com/images/paris1.jpg",
-      "https://example.com/images/paris2.jpg"
+      "https://images.pexels.com/photos/532826/pexels-photo-532826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/2738173/pexels-photo-2738173.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/224756/pexels-photo-224756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
     ],
     "isFav": true,
     "package": {
@@ -59,8 +62,9 @@
     "flag": "https://flagcdn.com/fr.svg",
     "description": "A port city in southern France with historic charm and Mediterranean vibes.",
     "gallery": [
-      "https://example.com/images/marseille1.jpg",
-      "https://example.com/images/marseille2.jpg"
+      "https://images.pexels.com/photos/29803747/pexels-photo-29803747/free-photo-of-scenic-view-of-old-port-and-notre-dame-de-la-garde.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/763699/pexels-photo-763699.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/2076720/pexels-photo-2076720.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
     ],
     "isFav": false,
     "package": {
@@ -77,8 +81,11 @@
     "flag": "https://flagcdn.com/jp.svg",
     "description": "Futuristic city known for skyscrapers, anime culture, and ancient temples.",
     "gallery": [
-      "https://example.com/images/tokyo1.jpg",
-      "https://example.com/images/tokyo2.jpg"
+      "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/2187456/pexels-photo-2187456.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/15104690/pexels-photo-15104690/free-photo-of-crowd-on-alley-between-buildings.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/31043706/pexels-photo-31043706/free-photo-of-tokyo-skyline-with-iconic-skytree-view.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/2389171/pexels-photo-2389171.jpeg?auto=compress&cs=tinysrgb&w=1200"
     ],
     "isFav": true,
     "package": {

@@ -248,7 +248,27 @@
     "reviewCount": 980,
     "continent": "Europe"
   },
+  {
+    "country": "Iceland",
+    "city": "Reykjavik",
+    "flag": "https://flagcdn.com/is.svg",
+    "description": "The vibrant capital city, known for its colorful buildings, geothermal activity, and access to stunning natural wonders.",
+    "gallery": [
+      "https://example.com/images/reykjavik1.jpg",
+      "https://example.com/images/reykjavik2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 950,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Golden Circle tour included"
+    },
+    "reviews": 4.7,
+    "reviewCount": 780,
+    "continent": "Europe"
+  },
 
+  
   {
     "country": "India",
     "city": "New Delhi",
@@ -645,7 +665,7 @@
     "continent": "Asia"
   },
 
-  
+
   {
     "country": "USA",
     "city": "New York",
@@ -1143,44 +1163,6 @@
     "continent": "South America"
   },
   {
-    "country": "Bolivia",
-    "city": "Salar de Uyuni",
-    "flag": "https://flagcdn.com/bo.svg",
-    "description": "The world's largest salt flat, offering surreal and stunning landscapes.",
-    "gallery": [
-      "https://example.com/images/salaruyuni1.jpg",
-      "https://example.com/images/salaruyuni2.jpg"
-    ],
-    "isFav": true,
-    "package": {
-      "price": 880,
-      "stayDuration": "4 Nights / 5 Days",
-      "offer": "Guided tour of the salt flats and surrounding areas"
-    },
-    "reviews": 4.7,
-    "reviewCount": 490,
-    "continent": "South America"
-  },
-  {
-    "country": "Venezuela",
-    "city": "Angel Falls",
-    "flag": "https://flagcdn.com/ve.svg",
-    "description": "The world's tallest uninterrupted waterfall, located in Canaima National Park.",
-    "gallery": [
-      "https://example.com/images/angelfalls1.jpg",
-      "https://example.com/images/angelfalls2.jpg"
-    ],
-    "isFav": true,
-    "package": {
-      "price": 920,
-      "stayDuration": "5 Nights / 6 Days",
-      "offer": "Flights and guided tours to Angel Falls"
-    },
-    "reviews": 4.6,
-    "reviewCount": 380,
-    "continent": "South America"
-  },
-  {
     "country": "Paraguay",
     "city": "Asunción",
     "flag": "https://flagcdn.com/py.svg",
@@ -1256,25 +1238,694 @@
     "reviewCount": 260,
     "continent": "South America"
   },
-
-
   {
-    "country": "Egypt",
-    "city": "Cairo",
-    "flag": "https://flagcdn.com/eg.svg",
-    "description": "A city steeped in history with its iconic pyramids, ancient ruins, and vibrant culture.",
+    "country": "French Guiana",
+    "city": "Cayenne",
+    "flag": "https://flagcdn.com/gf.svg",
+    "description": "The capital city, known for its Creole culture and gateway to space exploration sites.",
     "gallery": [
-      "https://example.com/images/cairo1.jpg",
-      "https://example.com/images/cairo2.jpg"
+      "https://example.com/images/cayenne1.jpg",
+      "https://example.com/images/cayenne2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 700,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Tour of the Guiana Space Centre (optional)"
+    },
+    "reviews": 4.1,
+    "reviewCount": 210,
+    "continent": "South America"
+  },
+  {
+    "country": "Peru",
+    "city": "Cusco",
+    "flag": "https://flagcdn.com/pe.svg",
+    "description": "The historical capital of the Inca Empire and gateway to Machu Picchu.",
+    "gallery": [
+      "https://example.com/images/cusco1.jpg",
+      "https://example.com/images/cusco2.jpg"
     ],
     "isFav": true,
     "package": {
-      "price": 670,
+      "price": 780,
       "stayDuration": "3 Nights / 4 Days",
-      "offer": "Free Pyramid tour"
+      "offer": "Free city and Sacred Valley tour"
+    },
+    "reviews": 4.7,
+    "reviewCount": 680,
+    "continent": "South America"
+  },
+  {
+    "country": "Colombia",
+    "city": "Medellín",
+    "flag": "https://flagcdn.com/co.svg",
+    "description": "Known as the 'City of Eternal Spring' with a vibrant culture and innovative urban development.",
+    "gallery": [
+      "https://example.com/images/medellin1.jpg",
+      "https://example.com/images/medellin2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 720,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free cable car tour of the city"
     },
     "reviews": 4.5,
-    "reviewCount": 1100,
+    "reviewCount": 590,
+    "continent": "South America"
+  },
+  {
+    "country": "Chile",
+    "city": "Atacama Desert",
+    "flag": "https://flagcdn.com/cl.svg",
+    "description": "The driest non-polar desert in the world, offering stunning otherworldly landscapes.",
+    "gallery": [
+      "https://example.com/images/atacamadesert1.jpg",
+      "https://example.com/images/atacamadesert2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 900,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Stargazing tour and geyser visit included"
+    },
+    "reviews": 4.8,
+    "reviewCount": 460,
+    "continent": "South America"
+  },
+  {
+    "country": "Argentina",
+    "city": "Iguazu Falls",
+    "flag": "https://flagcdn.com/ar.svg",
+    "description": "Spectacular waterfalls on the border with Brazil, offering breathtaking natural beauty.",
+    "gallery": [
+      "https://example.com/images/iguazufalls1.jpg",
+      "https://example.com/images/iguazufalls2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 850,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Boat trip to the base of the falls included"
+    },
+    "reviews": 4.7,
+    "reviewCount": 720,
+    "continent": "South America"
+  },
+
+
+  {
+    "country": "Morocco",
+    "city": "Marrakech",
+    "flag": "https://flagcdn.com/ma.svg",
+    "description": "A vibrant city with bustling souks, stunning palaces, and the lively Jemaa el-Fna square.",
+    "gallery": [
+      "https://example.com/images/marrakech1.jpg",
+      "https://example.com/images/marrakech2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 720,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Free guided tour of the Medina"
+    },
+    "reviews": 4.6,
+    "reviewCount": 850,
     "continent": "Africa"
+  },
+  {
+    "country": "South Africa",
+    "city": "Cape Town",
+    "flag": "https://flagcdn.com/za.svg",
+    "description": "A stunning coastal city with iconic Table Mountain and diverse landscapes.",
+    "gallery": [
+      "https://example.com/images/capetown1.jpg",
+      "https://example.com/images/capetown2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 850,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Free Table Mountain cable car ride"
+    },
+    "reviews": 4.7,
+    "reviewCount": 780,
+    "continent": "Africa"
+  },
+  {
+    "country": "Kenya",
+    "city": "Masai Mara National Reserve",
+    "flag": "https://flagcdn.com/ke.svg",
+    "description": "Famous for its incredible wildlife, including the Great Migration of wildebeest and zebras.",
+    "gallery": [
+      "https://example.com/images/masaimara1.jpg",
+      "https://example.com/images/masaimara2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 980,
+      "stayDuration": "5 Nights / 6 Days",
+      "offer": "Daily guided safari drives included"
+    },
+    "reviews": 4.8,
+    "reviewCount": 920,
+    "continent": "Africa"
+  },
+  {
+    "country": "Tanzania",
+    "city": "Serengeti National Park",
+    "flag": "https://flagcdn.com/tz.svg",
+    "description": "One of Africa's most renowned wildlife areas, also known for the Great Migration.",
+    "gallery": [
+      "https://example.com/images/serengeti1.jpg",
+      "https://example.com/images/serengeti2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 950,
+      "stayDuration": "5 Nights / 6 Days",
+      "offer": "Guided game drives and cultural visits"
+    },
+    "reviews": 4.7,
+    "reviewCount": 880,
+    "continent": "Africa"
+  },
+  {
+    "country": "Zanzibar",
+    "city": "Stone Town",
+    "flag": "https://flagcdn.com/tz.svg",
+    "description": "A historic trading center with Swahili culture, winding alleys, and beautiful beaches.",
+    "gallery": [
+      "https://example.com/images/stonetown1.jpg",
+      "https://example.com/images/stonetown2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 780,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Free spice farm tour and beach excursion"
+    },
+    "reviews": 4.5,
+    "reviewCount": 650,
+    "continent": "Africa"
+  },
+  {
+    "country": "Namibia",
+    "city": "Sossusvlei",
+    "flag": "https://flagcdn.com/na.svg",
+    "description": "Famous for its towering red sand dunes in the Namib-Naukluft National Park.",
+    "gallery": [
+      "https://example.com/images/sossusvlei1.jpg",
+      "https://example.com/images/sossusvlei2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 890,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Guided desert tours and dune climbing"
+    },
+    "reviews": 4.7,
+    "reviewCount": 590,
+    "continent": "Africa"
+  },
+  {
+    "country": "Botswana",
+    "city": "Okavango Delta",
+    "flag": "https://flagcdn.com/bw.svg",
+    "description": "A unique inland river delta with diverse wildlife and stunning natural beauty.",
+    "gallery": [
+      "https://example.com/images/okavangodelta1.jpg",
+      "https://example.com/images/okavangodelta2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 1100,
+      "stayDuration": "5 Nights / 6 Days",
+      "offer": "Mokoro (traditional canoe) excursions and game walks"
+    },
+    "reviews": 4.9,
+    "reviewCount": 710,
+    "continent": "Africa"
+  },
+  {
+    "country": "Ethiopia",
+    "city": "Lalibela",
+    "flag": "https://flagcdn.com/et.svg",
+    "description": "Known for its remarkable monolithic rock-cut churches, a UNESCO World Heritage site.",
+    "gallery": [
+      "https://example.com/images/lalibela1.jpg",
+      "https://example.com/images/lalibela2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 750,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Guided tours of the rock-hewn churches"
+    },
+    "reviews": 4.5,
+    "reviewCount": 480,
+    "continent": "Africa"
+  },
+  {
+    "country": "Uganda",
+    "city": "Bwindi Impenetrable National Park",
+    "flag": "https://flagcdn.com/ug.svg",
+    "description": "Home to a significant population of endangered mountain gorillas.",
+    "gallery": [
+      "https://example.com/images/bwindi1.jpg",
+      "https://example.com/images/bwindi2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 1500,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Gorilla trekking permit and guided experience"
+    },
+    "reviews": 4.8,
+    "reviewCount": 350,
+    "continent": "Africa"
+  },
+  {
+    "country": "Madagascar",
+    "city": "Antananarivo",
+    "flag": "https://flagcdn.com/mg.svg",
+    "description": "The capital city, serving as a gateway to the island's unique biodiversity.",
+    "gallery": [
+      "https://example.com/images/antananarivo1.jpg",
+      "https://example.com/images/antananarivo2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 700,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Guided tours of lemur parks"
+    },
+    "reviews": 4.3,
+    "reviewCount": 410,
+    "continent": "Africa"
+  },
+  {
+    "country": "Ghana",
+    "city": "Accra",
+    "flag": "https://flagcdn.com/gh.svg",
+    "description": "The vibrant capital city with historical sites, bustling markets, and lively culture.",
+    "gallery": [
+      "https://example.com/images/accra1.jpg",
+      "https://example.com/images/accra2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 650,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free tour of historical Jamestown"
+    },
+    "reviews": 4.2,
+    "reviewCount": 320,
+    "continent": "Africa"
+  },
+  {
+    "country": "Senegal",
+    "city": "Dakar",
+    "flag": "https://flagcdn.com/sn.svg",
+    "description": "A coastal city with a blend of French colonial heritage and West African culture.",
+    "gallery": [
+      "https://example.com/images/dakar1.jpg",
+      "https://example.com/images/dakar2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 680,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Visit to Gorée Island included"
+    },
+    "reviews": 4.3,
+    "reviewCount": 290,
+    "continent": "Africa"
+  },
+  {
+    "country": "Rwanda",
+    "city": "Kigali",
+    "flag": "https://flagcdn.com/rw.svg",
+    "description": "A clean and developing city with a poignant history and beautiful surrounding hills.",
+    "gallery": [
+      "https://example.com/images/kigali1.jpg",
+      "https://example.com/images/kigali2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 700,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Visit to the Kigali Genocide Memorial"
+    },
+    "reviews": 4.4,
+    "reviewCount": 360,
+    "continent": "Africa"
+  },
+
+
+  {
+    "country": "Australia",
+    "city": "Sydney",
+    "flag": "https://flagcdn.com/au.svg",
+    "description": "Australia's largest city, famous for the Sydney Opera House and Harbour Bridge.",
+    "gallery": [
+      "https://example.com/images/sydney1.jpg",
+      "https://example.com/images/sydney2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 1150,
+      "stayDuration": "5 Nights / 6 Days",
+      "offer": "Free Sydney Harbour Bridge climb"
+    },
+    "reviews": 4.8,
+    "reviewCount": 950,
+    "continent": "Oceania"
+  },
+  {
+    "country": "New Zealand",
+    "city": "Auckland",
+    "flag": "https://flagcdn.com/nz.svg",
+    "description": "Known as the 'City of Sails,' with a beautiful harbor and Polynesian culture.",
+    "gallery": [
+      "https://example.com/images/auckland1.jpg",
+      "https://example.com/images/auckland2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 1020,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Free Auckland Harbour Bridge bungy jump (optional)"
+    },
+    "reviews": 4.6,
+    "reviewCount": 680,
+    "continent": "Oceania"
+  },
+  {
+    "country": "Fiji",
+    "city": "Nadi",
+    "flag": "https://flagcdn.com/fj.svg",
+    "description": "A major transportation hub and gateway to Fiji's stunning islands and resorts.",
+    "gallery": [
+      "https://example.com/images/nadi1.jpg",
+      "https://example.com/images/nadi2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 980,
+      "stayDuration": "7 Nights / 8 Days",
+      "offer": "Island hopping tour included"
+    },
+    "reviews": 4.7,
+    "reviewCount": 720,
+    "continent": "Oceania"
+  },
+  {
+    "country": "New Zealand",
+    "city": "Queenstown",
+    "flag": "https://flagcdn.com/nz.svg",
+    "description": "The 'Adventure Capital of the World,' known for bungy jumping, skiing, and stunning scenery.",
+    "gallery": [
+      "https://example.com/images/queenstown1.jpg",
+      "https://example.com/images/queenstown2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 1100,
+      "stayDuration": "5 Nights / 6 Days",
+      "offer": "Choice of one adventure activity (bungy, rafting, etc.)"
+    },
+    "reviews": 4.9,
+    "reviewCount": 810,
+    "continent": "Oceania"
+  },
+  {
+    "country": "Australia",
+    "city": "Great Barrier Reef",
+    "flag": "https://flagcdn.com/au.svg",
+    "description": "The world's largest coral reef system, offering incredible snorkeling and diving.",
+    "gallery": [
+      "https://example.com/images/greatbarrierreef1.jpg",
+      "https://example.com/images/greatbarrierreef2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 1300,
+      "stayDuration": "6 Nights / 7 Days",
+      "offer": "Liveaboard diving/snorkeling experience"
+    },
+    "reviews": 4.8,
+    "reviewCount": 990,
+    "continent": "Oceania"
+  },
+  {
+    "country": "French Polynesia",
+    "city": "Bora Bora",
+    "flag": "https://flagcdn.com/pf.svg",
+    "description": "A luxurious island known for its overwater bungalows, turquoise lagoons, and volcanic peaks.",
+    "gallery": [
+      "https://example.com/images/borabora1.jpg",
+      "https://example.com/images/borabora2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 1800,
+      "stayDuration": "5 Nights / 6 Days",
+      "offer": "Overwater bungalow stay with lagoon excursions"
+    },
+    "reviews": 4.9,
+    "reviewCount": 650,
+    "continent": "Oceania"
+  },
+  {
+    "country": "Samoa",
+    "city": "Apia",
+    "flag": "https://flagcdn.com/ws.svg",
+    "description": "The capital city located on the island of Upolu, known for its natural beauty and Samoan culture.",
+    "gallery": [
+      "https://example.com/images/apia1.jpg",
+      "https://example.com/images/apia2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 950,
+      "stayDuration": "7 Nights / 8 Days",
+      "offer": "Guided tours of waterfalls and cultural sites"
+    },
+    "reviews": 4.5,
+    "reviewCount": 480,
+    "continent": "Oceania"
+  },
+  {
+    "country": "Tonga",
+    "city": "Nuku'alofa",
+    "flag": "https://flagcdn.com/to.svg",
+    "description": "The capital city on the main island of Tongatapu, with royal palaces and ancient sites.",
+    "gallery": [
+      "https://example.com/images/nukualofa1.jpg",
+      "https://example.com/images/nukualofa2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 900,
+      "stayDuration": "6 Nights / 7 Days",
+      "offer": "Whale watching tour (seasonal)"
+    },
+    "reviews": 4.4,
+    "reviewCount": 390,
+    "continent": "Oceania"
+  },
+  {
+    "country": "Vanuatu",
+    "city": "Port Vila",
+    "flag": "https://flagcdn.com/vu.svg",
+    "description": "The capital city on the island of Efate, known for its diving, volcanoes, and kava culture.",
+    "gallery": [
+      "https://example.com/images/portvila1.jpg",
+      "https://example.com/images/portvila2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 1050,
+      "stayDuration": "7 Nights / 8 Days",
+      "offer": "Volcano hiking tour and cultural village visit"
+    },
+    "reviews": 4.6,
+    "reviewCount": 510,
+    "continent": "Oceania"
+  },
+  {
+    "country": "Cook Islands",
+    "city": "Rarotonga",
+    "flag": "https://flagcdn.com/ck.svg",
+    "description": "The largest of the Cook Islands, known for its beautiful beaches, lagoons, and lush interior.",
+    "gallery": [
+      "https://example.com/images/rarotonga1.jpg",
+      "https://example.com/images/rarotonga2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 1120,
+      "stayDuration": "7 Nights / 8 Days",
+      "offer": "Lagoon cruise and cultural show"
+    },
+    "reviews": 4.7,
+    "reviewCount": 450,
+    "continent": "Oceania"
+  },
+  {
+    "country": "New Caledonia",
+    "city": "Nouméa",
+    "flag": "https://flagcdn.com/nc.svg",
+    "description": "The capital city, known for its French influence, beautiful lagoons, and diverse marine life.",
+    "gallery": [
+      "https://example.com/images/noumea1.jpg",
+      "https://example.com/images/noumea2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 1080,
+      "stayDuration": "6 Nights / 7 Days",
+      "offer": "Lagoon snorkeling tour and Kanak cultural center visit"
+    },
+    "reviews": 4.5,
+    "reviewCount": 380,
+    "continent": "Oceania"
+  },
+  {
+    "country": "Papua New Guinea",
+    "city": "Port Moresby",
+    "flag": "https://flagcdn.com/pg.svg",
+    "description": "The capital city, offering a mix of modern developments and traditional Papuan culture.",
+    "gallery": [
+      "https://example.com/images/portmoresby1.jpg",
+      "https://example.com/images/portmoresby2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 920,
+      "stayDuration": "5 Nights / 6 Days",
+      "offer": "Cultural village tour and National Museum visit"
+    },
+    "reviews": 4.3,
+    "reviewCount": 310,
+    "continent": "Oceania"
+  },
+  {
+    "country": "Solomon Islands",
+    "city": "Honiara",
+    "flag": "https://flagcdn.com/sb.svg",
+    "description": "The capital city on the island of Guadalcanal, with WWII historical sites and natural beauty.",
+    "gallery": [
+      "https://example.com/images/honiara1.jpg",
+      "https://example.com/images/honiara2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 950,
+      "stayDuration": "7 Nights / 8 Days",
+      "offer": "WWII historical site tour and island hopping excursion"
+    },
+    "reviews": 4.4,
+    "reviewCount": 270,
+    "continent": "Oceania"
+  },
+
+
+  {
+    "country": "Antarctica",
+    "city": "Various Expedition Landing Sites",
+    "flag": null,
+    "description": "Experience the vast wilderness, unique wildlife (penguins, seals, whales), and stunning ice landscapes.",
+    "gallery": [
+      "https://example.com/images/antarctica1.jpg",
+      "https://example.com/images/antarctica2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 8000,
+      "stayDuration": "10 Nights / 11 Days",
+      "offer": "Zodiac cruises and landings, wildlife viewing"
+    },
+    "reviews": 4.9,
+    "reviewCount": 180,
+    "continent": "Antarctica"
+  },
+  {
+    "country": "Antarctica",
+    "city": "South Georgia and the South Sandwich Islands",
+    "flag": null,
+    "description": "Known for massive king penguin colonies, fur seals, and historical whaling stations.",
+    "gallery": [
+      "https://example.com/images/southgeorgia1.jpg",
+      "https://example.com/images/southgeorgia2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 9500,
+      "stayDuration": "12 Nights / 13 Days",
+      "offer": "Wildlife photography opportunities, historical tours"
+    },
+    "reviews": 4.8,
+    "reviewCount": 120,
+    "continent": "Antarctica"
+  },
+  {
+    "country": "Antarctica",
+    "city": "Antarctic Peninsula",
+    "flag": null,
+    "description": "The most accessible part of the continent, with dramatic scenery and abundant wildlife.",
+    "gallery": [
+      "https://example.com/images/antarcticpeninsula1.jpg",
+      "https://example.com/images/antarcticpeninsula2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 7500,
+      "stayDuration": "9 Nights / 10 Days",
+      "offer": "Kayaking, snowshoeing, and polar swimming (optional)"
+    },
+    "reviews": 4.7,
+    "reviewCount": 220,
+    "continent": "Antarctica"
+  },
+  {
+    "country": "Antarctica",
+    "city": "Ross Sea",
+    "flag": null,
+    "description": "A remote region with vast ice shelves, volcanic islands, and unique marine ecosystems.",
+    "gallery": [
+      "https://example.com/images/rosssea1.jpg",
+      "https://example.com/images/rosssea2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 12000,
+      "stayDuration": "20 Nights / 21 Days",
+      "offer": "Scientific research station visits, deep-sea exploration insights"
+    },
+    "reviews": 4.9,
+    "reviewCount": 50,
+    "continent": "Antarctica"
+  },
+  {
+    "country": "Antarctica",
+    "city": "Weddell Sea",
+    "flag": null,
+    "description": "Known for its massive icebergs, including tabular icebergs, and historical exploration sites.",
+    "gallery": [
+      "https://example.com/images/weddellsea1.jpg",
+      "https://example.com/images/weddellsea2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 10500,
+      "stayDuration": "15 Nights / 16 Days",
+      "offer": "Iceberg viewing, historical lectures"
+    },
+    "reviews": 4.8,
+    "reviewCount": 90,
+    "continent": "Antarctica"
   }
 ]

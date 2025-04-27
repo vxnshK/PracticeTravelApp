@@ -10,8 +10,6 @@ export default function Carousel() {
     return Array.from(tempContinentSet);
   }, [DB]);
 
-  console.log(continents, 'tag continents')
-
   return (
     <View style={styles.carouselContainer}>
       <Pills continents={continents} />

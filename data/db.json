@@ -16,7 +16,8 @@
       "offer": "10% off on early booking"
     },
     "reviews": 4.5,
-    "reviewCount": 320
+    "reviewCount": 320,
+    "continent": "Asia"
   },
   {
     "country": "India",
@@ -35,7 +36,8 @@
       "offer": "Free beach dinner on Day 1"
     },
     "reviews": 4.7,
-    "reviewCount": 410
+    "reviewCount": 410,
+    "continent": "Asia"
   },
   {
     "country": "France",
@@ -54,7 +56,8 @@
       "offer": "Free Louvre entry pass"
     },
     "reviews": 4.8,
-    "reviewCount": 850
+    "reviewCount": 850,
+    "continent": "Europe"
   },
   {
     "country": "France",
@@ -73,7 +76,8 @@
       "offer": "Free Old Port boat ride"
     },
     "reviews": 4.2,
-    "reviewCount": 180
+    "reviewCount": 180,
+    "continent": "Europe"
   },
   {
     "country": "Japan",
@@ -94,7 +98,8 @@
       "offer": "Free Mt. Fuji day tour"
     },
     "reviews": 4.9,
-    "reviewCount": 1020
+    "reviewCount": 1020,
+    "continent": "Asia"
   },
   {
     "country": "Japan",
@@ -112,7 +117,8 @@
       "offer": "Free deer food with city tour"
     },
     "reviews": 4.4,
-    "reviewCount": 350
+    "reviewCount": 350,
+    "continent": "Asia"
   },
   {
     "country": "Italy",
@@ -130,7 +136,8 @@
       "offer": "Free Colosseum guided tour"
     },
     "reviews": 4.6,
-    "reviewCount": 620
+    "reviewCount": 620,
+    "continent": "Europe"
   },
   {
     "country": "Italy",
@@ -148,7 +155,8 @@
       "offer": "Romantic gondola ride included"
     },
     "reviews": 4.7,
-    "reviewCount": 540
+    "reviewCount": 540,
+    "continent": "Europe"
   },
   {
     "country": "USA",
@@ -166,7 +174,8 @@
       "offer": "Free Statue of Liberty cruise"
     },
     "reviews": 4.7,
-    "reviewCount": 950
+    "reviewCount": 950,
+    "continent": "North America"
   },
   {
     "country": "USA",
@@ -184,7 +193,8 @@
       "offer": "Free Alcatraz Island tour"
     },
     "reviews": 4.5,
-    "reviewCount": 430
+    "reviewCount": 430,
+    "continent": "North America"
   },
   {
     "country": "Spain",
@@ -202,7 +212,8 @@
       "offer": "Free Sagrada Familia entry"
     },
     "reviews": 4.6,
-    "reviewCount": 720
+    "reviewCount": 720,
+    "continent": "Europe"
   },
   {
     "country": "Spain",
@@ -220,7 +231,8 @@
       "offer": "Free Prado Museum tickets"
     },
     "reviews": 4.4,
-    "reviewCount": 610
+    "reviewCount": 610,
+    "continent": "Europe"
   },
   {
     "country": "Germany",
@@ -238,7 +250,8 @@
       "offer": "Free Berlin Wall museum pass"
     },
     "reviews": 4.5,
-    "reviewCount": 540
+    "reviewCount": 540,
+    "continent": "Europe"
   },
   {
     "country": "Germany",
@@ -256,7 +269,8 @@
       "offer": "Free brewery tour"
     },
     "reviews": 4.3,
-    "reviewCount": 470
+    "reviewCount": 470,
+    "continent": "Europe"
   },
   {
     "country": "Netherlands",
@@ -274,7 +288,8 @@
       "offer": "Free canal cruise"
     },
     "reviews": 4.7,
-    "reviewCount": 680
+    "reviewCount": 680,
+    "continent": "Europe"
   },
   {
     "country": "Switzerland",
@@ -292,7 +307,8 @@
       "offer": "Free Lake Zurich boat ride"
     },
     "reviews": 4.6,
-    "reviewCount": 510
+    "reviewCount": 510,
+    "continent": "Europe"
   },
   {
     "country": "Austria",
@@ -310,7 +326,8 @@
       "offer": "Free opera house tour"
     },
     "reviews": 4.5,
-    "reviewCount": 480
+    "reviewCount": 480,
+    "continent": "Europe"
   },
   {
     "country": "Portugal",
@@ -328,7 +345,8 @@
       "offer": "Free tram tour"
     },
     "reviews": 4.4,
-    "reviewCount": 390
+    "reviewCount": 390,
+    "continent": "Europe"
   },
   {
     "country": "United Arab Emirates",
@@ -346,7 +364,8 @@
       "offer": "Free Burj Khalifa tickets"
     },
     "reviews": 4.8,
-    "reviewCount": 1350
+    "reviewCount": 1350,
+    "continent": "Asia"
   },
   {
     "country": "United Arab Emirates",
@@ -364,7 +383,8 @@
       "offer": "Free Ferrari World tickets"
     },
     "reviews": 4.6,
-    "reviewCount": 880
+    "reviewCount": 880,
+    "continent": "Asia"
   },
   {
     "country": "Saudi Arabia",
@@ -382,7 +402,8 @@
       "offer": "Free Diriyah Heritage Village tour"
     },
     "reviews": 4.3,
-    "reviewCount": 420
+    "reviewCount": 420,
+    "continent": "Asia"
   },
   {
     "country": "Qatar",
@@ -400,7 +421,8 @@
       "offer": "Free Museum of Islamic Art tickets"
     },
     "reviews": 4.7,
-    "reviewCount": 630
+    "reviewCount": 630,
+    "continent": "Asia"
   },
   {
     "country": "Oman",
@@ -418,7 +440,8 @@
       "offer": "Free desert safari experience"
     },
     "reviews": 4.4,
-    "reviewCount": 290
+    "reviewCount": 290,
+    "continent": "Asia"
   },
   {
     "country": "Egypt",
@@ -436,7 +459,8 @@
       "offer": "Free Pyramid tour"
     },
     "reviews": 4.5,
-    "reviewCount": 1100
+    "reviewCount": 1100,
+    "continent": "Africa"
   },
   {
     "country": "Israel",
@@ -454,7 +478,8 @@
       "offer": "Free Dead Sea tour"
     },
     "reviews": 4.7,
-    "reviewCount": 560
+    "reviewCount": 560,
+    "continent": "Asia"
   },
   {
     "country": "Turkey",
@@ -472,6 +497,7 @@
       "offer": "Free Bosphorus cruise"
     },
     "reviews": 4.6,
-    "reviewCount": 980
+    "reviewCount": 980,
+    "continent": "Europe"
   }
 ]

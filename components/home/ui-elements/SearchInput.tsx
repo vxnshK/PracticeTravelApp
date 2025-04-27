@@ -4,10 +4,10 @@ import React from 'react';
 export default function SearchInput() {
   return (
     <View style={styles.searchContainer}>
-      <Image source={require('../../assets/icons/search.png')} style={styles.searchIcon} />
+      <Image source={require('../../../assets/icons/search.png')} style={styles.searchIcon} />
       <TextInput placeholder="Search" style={styles.searchInput} />
       <View style={styles.filterIconContainer}>
-        <Image source={require('../../assets/icons/filter.png')} style={styles.filterIcon} />
+        <Image source={require('../../../assets/icons/filter.png')} style={styles.filterIcon} />
       </View>
     </View>
   );

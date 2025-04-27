@@ -1,8 +1,9 @@
 import React from 'react'
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context'
-import Header from './components/ui-elements/Header'
-import SearchInput from './components/ui-elements/SearchInput'
+import Header from './components/home/ui-elements/Header'
+import SearchInput from './components/home/ui-elements/SearchInput'
 import { StyleSheet } from 'react-native'
+import SubHeader from './components/home/ui-elements/SubHeader'
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <SafeAreaView style={styles.layoutContainer}>
         <Header />
         <SearchInput />
+        <SubHeader />
       </SafeAreaView>
     </SafeAreaProvider>
   )

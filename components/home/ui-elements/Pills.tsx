@@ -1,22 +1,55 @@
-import { ScrollView, StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import React, { useRef } from 'react';
+import {
+  FlatList,
+  StyleSheet,
+  Text,
+  View,
+  type ListRenderItem,
+  type FlatList as RNFlatList,
+} from 'react-native';
 
 type TPillsProps = {
-  continents: string[]
-}
+  continents: string[];
+  selectedContinent: string;
+  setSelectedContinent: React.Dispatch<React.SetStateAction<string>>;
+};
 
-export default function Pills({ continents }: TPillsProps) {
+export default function Pills({
+  continents,
+  selectedContinent,
+  setSelectedContinent,
+}: TPillsProps) {
+  const flatListRef = useRef<RNFlatList<string>>(null);
+
+  const changeContinentHandler = (continent: string, index: number) => {
+    flatListRef.current?.scrollToIndex({ index, animated: true });
+    setSelectedContinent(continent);
+  };
+
+  const renderItem: ListRenderItem<string> = ({ item, index }) => (
+    <View key={item + index}>
+      <Text
+        onPress={() => changeContinentHandler(item, index)}
+        style={[
+          styles.pillItemBase,
+          item === selectedContinent && styles.pillItemSelected,
+        ]}>
+        {item}
+      </Text>
+    </View>
+  );
+
   return (
-    <ScrollView
-      horizontal={true}
-      style={styles.pillsContainer}
+    <FlatList
+      ref={flatListRef}
+      data={continents}
+      horizontal
+      showsHorizontalScrollIndicator={false}
       contentContainerStyle={styles.contentContainer}
-    >
-      {continents.map((c,i) => 
-        <Text style={styles.pillItem} key={c+i}>{c}</Text>
-      )}
-    </ScrollView>
-  )
+      renderItem={renderItem}
+      keyExtractor={(item, index) => item + index}
+    />
+  );
 }
 
 const styles = StyleSheet.create({
@@ -24,9 +57,10 @@ const styles = StyleSheet.create({
     paddingBottom: 5,
   },
   contentContainer: {
-    columnGap: 12
+    columnGap: 13.5,
+    paddingBottom: 5,
   },
-  pillItem: {
+  pillItemBase: {
     backgroundColor: '#FFF',
     paddingTop: 7,
     paddingBottom: 8,
@@ -36,5 +70,10 @@ const styles = StyleSheet.create({
     fontFamily: 'Gotham Book',
     elevation: 1,
     fontSize: 13.5,
-  }
-})
+  },
+  pillItemSelected: {
+    backgroundColor: '#212529',
+    color: '#FFF',
+    fontFamily: 'Gotham Medium',
+  },
+});

@@ -16,6 +16,6 @@ const styles = StyleSheet.create({
     paddingTop: 30,
     paddingLeft: 20,
     paddingRight: 20,
-    letterSpacing: 0,
+    letterSpacing: -0.6,
   }
 })

@@ -11,10 +11,11 @@ export default function SubHeader() {
 
 const styles = StyleSheet.create({
   subheading: {
-    fontSize: 22,
-    fontFamily: 'Gotham Bold',
+    fontSize: 24,
+    fontFamily: 'Gotham Medium',
     paddingTop: 30,
     paddingLeft: 20,
     paddingRight: 20,
+    letterSpacing: 0,
   }
 })

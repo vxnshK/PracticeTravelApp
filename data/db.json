@@ -1,43 +1,41 @@
 [
   {
-    "country": "India",
-    "city": "New Delhi",
-    "flag": "https://flagcdn.com/in.svg",
-    "description": "The capital city of India, rich with Mughal-era architecture and bustling bazaars.",
+    "country": "Italy",
+    "city": "Rome",
+    "flag": "https://flagcdn.com/it.svg",
+    "description": "The Eternal City, where ancient ruins and Renaissance art collide beautifully.",
     "gallery": [
-      "https://images.pexels.com/photos/1007426/pexels-photo-1007426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/1542620/pexels-photo-1542620.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/2415399/pexels-photo-2415399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      "https://example.com/images/rome1.jpg",
+      "https://example.com/images/rome2.jpg"
     ],
     "isFav": true,
     "package": {
-      "price": 299,
+      "price": 870,
       "stayDuration": "3 Nights / 4 Days",
-      "offer": "10% off on early booking"
+      "offer": "Free Colosseum guided tour"
     },
-    "reviews": 4.5,
-    "reviewCount": 320,
-    "continent": "Asia"
+    "reviews": 4.6,
+    "reviewCount": 620,
+    "continent": "Europe"
   },
   {
-    "country": "India",
-    "city": "Goa",
-    "flag": "https://flagcdn.com/in.svg",
-    "description": "India's beach paradise, known for nightlife, Portuguese heritage, and sunsets.",
+    "country": "Italy",
+    "city": "Venice",
+    "flag": "https://flagcdn.com/it.svg",
+    "description": "A unique city of canals, gondolas, and stunning architecture.",
     "gallery": [
-      "https://images.pexels.com/photos/4429334/pexels-photo-4429334.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/14384530/pexels-photo-14384530.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/2174656/pexels-photo-2174656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      "https://example.com/images/venice1.jpg",
+      "https://example.com/images/venice2.jpg"
     ],
     "isFav": true,
     "package": {
-      "price": 350,
-      "stayDuration": "4 Nights / 5 Days",
-      "offer": "Free beach dinner on Day 1"
+      "price": 890,
+      "stayDuration": "2 Nights / 3 Days",
+      "offer": "Romantic gondola ride included"
     },
     "reviews": 4.7,
-    "reviewCount": 410,
-    "continent": "Asia"
+    "reviewCount": 540,
+    "continent": "Europe"
   },
   {
     "country": "France",
@@ -78,123 +76,6 @@
     "reviews": 4.2,
     "reviewCount": 180,
     "continent": "Europe"
-  },
-  {
-    "country": "Japan",
-    "city": "Tokyo",
-    "flag": "https://flagcdn.com/jp.svg",
-    "description": "Futuristic city known for skyscrapers, anime culture, and ancient temples.",
-    "gallery": [
-      "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/2187456/pexels-photo-2187456.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/15104690/pexels-photo-15104690/free-photo-of-crowd-on-alley-between-buildings.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/31043706/pexels-photo-31043706/free-photo-of-tokyo-skyline-with-iconic-skytree-view.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/2389171/pexels-photo-2389171.jpeg?auto=compress&cs=tinysrgb&w=1200"
-    ],
-    "isFav": true,
-    "package": {
-      "price": 1050,
-      "stayDuration": "5 Nights / 6 Days",
-      "offer": "Free Mt. Fuji day tour"
-    },
-    "reviews": 4.9,
-    "reviewCount": 1020,
-    "continent": "Asia"
-  },
-  {
-    "country": "Japan",
-    "city": "Nara",
-    "flag": "https://flagcdn.com/jp.svg",
-    "description": "Famous for its free-roaming deer, peaceful temples, and historical treasures.",
-    "gallery": [
-      "https://example.com/images/nara1.jpg",
-      "https://example.com/images/nara2.jpg"
-    ],
-    "isFav": false,
-    "package": {
-      "price": 790,
-      "stayDuration": "2 Nights / 3 Days",
-      "offer": "Free deer food with city tour"
-    },
-    "reviews": 4.4,
-    "reviewCount": 350,
-    "continent": "Asia"
-  },
-  {
-    "country": "Italy",
-    "city": "Rome",
-    "flag": "https://flagcdn.com/it.svg",
-    "description": "The Eternal City, where ancient ruins and Renaissance art collide beautifully.",
-    "gallery": [
-      "https://example.com/images/rome1.jpg",
-      "https://example.com/images/rome2.jpg"
-    ],
-    "isFav": true,
-    "package": {
-      "price": 870,
-      "stayDuration": "3 Nights / 4 Days",
-      "offer": "Free Colosseum guided tour"
-    },
-    "reviews": 4.6,
-    "reviewCount": 620,
-    "continent": "Europe"
-  },
-  {
-    "country": "Italy",
-    "city": "Venice",
-    "flag": "https://flagcdn.com/it.svg",
-    "description": "A unique city of canals, gondolas, and stunning architecture.",
-    "gallery": [
-      "https://example.com/images/venice1.jpg",
-      "https://example.com/images/venice2.jpg"
-    ],
-    "isFav": true,
-    "package": {
-      "price": 890,
-      "stayDuration": "2 Nights / 3 Days",
-      "offer": "Romantic gondola ride included"
-    },
-    "reviews": 4.7,
-    "reviewCount": 540,
-    "continent": "Europe"
-  },
-  {
-    "country": "USA",
-    "city": "New York",
-    "flag": "https://flagcdn.com/us.svg",
-    "description": "The Big Apple, a buzzing city of culture, skyscrapers, and endless entertainment.",
-    "gallery": [
-      "https://example.com/images/ny1.jpg",
-      "https://example.com/images/ny2.jpg"
-    ],
-    "isFav": true,
-    "package": {
-      "price": 999,
-      "stayDuration": "4 Nights / 5 Days",
-      "offer": "Free Statue of Liberty cruise"
-    },
-    "reviews": 4.7,
-    "reviewCount": 950,
-    "continent": "North America"
-  },
-  {
-    "country": "USA",
-    "city": "San Francisco",
-    "flag": "https://flagcdn.com/us.svg",
-    "description": "A scenic city famous for the Golden Gate Bridge, tech innovation, and steep streets.",
-    "gallery": [
-      "https://example.com/images/sf1.jpg",
-      "https://example.com/images/sf2.jpg"
-    ],
-    "isFav": false,
-    "package": {
-      "price": 940,
-      "stayDuration": "3 Nights / 4 Days",
-      "offer": "Free Alcatraz Island tour"
-    },
-    "reviews": 4.5,
-    "reviewCount": 430,
-    "continent": "North America"
   },
   {
     "country": "Spain",
@@ -349,6 +230,107 @@
     "continent": "Europe"
   },
   {
+    "country": "Turkey",
+    "city": "Istanbul",
+    "flag": "https://flagcdn.com/tr.svg",
+    "description": "A city bridging Europe and Asia with its stunning mosques, bazaars, and rich culture.",
+    "gallery": [
+      "https://example.com/images/istanbul1.jpg",
+      "https://example.com/images/istanbul2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 800,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free Bosphorus cruise"
+    },
+    "reviews": 4.6,
+    "reviewCount": 980,
+    "continent": "Europe"
+  },
+
+  {
+    "country": "India",
+    "city": "New Delhi",
+    "flag": "https://flagcdn.com/in.svg",
+    "description": "The capital city of India, rich with Mughal-era architecture and bustling bazaars.",
+    "gallery": [
+      "https://images.pexels.com/photos/1007426/pexels-photo-1007426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/1542620/pexels-photo-1542620.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/2415399/pexels-photo-2415399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 299,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "10% off on early booking"
+    },
+    "reviews": 4.5,
+    "reviewCount": 320,
+    "continent": "Asia"
+  },
+  {
+    "country": "India",
+    "city": "Goa",
+    "flag": "https://flagcdn.com/in.svg",
+    "description": "India's beach paradise, known for nightlife, Portuguese heritage, and sunsets.",
+    "gallery": [
+      "https://images.pexels.com/photos/4429334/pexels-photo-4429334.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/14384530/pexels-photo-14384530.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/2174656/pexels-photo-2174656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 350,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Free beach dinner on Day 1"
+    },
+    "reviews": 4.7,
+    "reviewCount": 410,
+    "continent": "Asia"
+  },
+  {
+    "country": "Japan",
+    "city": "Tokyo",
+    "flag": "https://flagcdn.com/jp.svg",
+    "description": "Futuristic city known for skyscrapers, anime culture, and ancient temples.",
+    "gallery": [
+      "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/2187456/pexels-photo-2187456.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/15104690/pexels-photo-15104690/free-photo-of-crowd-on-alley-between-buildings.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/31043706/pexels-photo-31043706/free-photo-of-tokyo-skyline-with-iconic-skytree-view.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/2389171/pexels-photo-2389171.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 1050,
+      "stayDuration": "5 Nights / 6 Days",
+      "offer": "Free Mt. Fuji day tour"
+    },
+    "reviews": 4.9,
+    "reviewCount": 1020,
+    "continent": "Asia"
+  },
+  {
+    "country": "Japan",
+    "city": "Nara",
+    "flag": "https://flagcdn.com/jp.svg",
+    "description": "Famous for its free-roaming deer, peaceful temples, and historical treasures.",
+    "gallery": [
+      "https://example.com/images/nara1.jpg",
+      "https://example.com/images/nara2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 790,
+      "stayDuration": "2 Nights / 3 Days",
+      "offer": "Free deer food with city tour"
+    },
+    "reviews": 4.4,
+    "reviewCount": 350,
+    "continent": "Asia"
+  },
+  {
     "country": "United Arab Emirates",
     "city": "Dubai",
     "flag": "https://flagcdn.com/ae.svg",
@@ -444,25 +426,6 @@
     "continent": "Asia"
   },
   {
-    "country": "Egypt",
-    "city": "Cairo",
-    "flag": "https://flagcdn.com/eg.svg",
-    "description": "A city steeped in history with its iconic pyramids, ancient ruins, and vibrant culture.",
-    "gallery": [
-      "https://example.com/images/cairo1.jpg",
-      "https://example.com/images/cairo2.jpg"
-    ],
-    "isFav": true,
-    "package": {
-      "price": 670,
-      "stayDuration": "3 Nights / 4 Days",
-      "offer": "Free Pyramid tour"
-    },
-    "reviews": 4.5,
-    "reviewCount": 1100,
-    "continent": "Africa"
-  },
-  {
     "country": "Israel",
     "city": "Tel Aviv",
     "flag": "https://flagcdn.com/il.svg",
@@ -482,22 +445,836 @@
     "continent": "Asia"
   },
   {
-    "country": "Turkey",
-    "city": "Istanbul",
-    "flag": "https://flagcdn.com/tr.svg",
-    "description": "A city bridging Europe and Asia with its stunning mosques, bazaars, and rich culture.",
+    "country": "South Korea",
+    "city": "Seoul",
+    "flag": "https://flagcdn.com/kr.svg",
+    "description": "A vibrant metropolis blending K-pop culture, ancient palaces, and technological innovation.",
     "gallery": [
-      "https://example.com/images/istanbul1.jpg",
-      "https://example.com/images/istanbul2.jpg"
+      "https://example.com/images/seoul1.jpg",
+      "https://example.com/images/seoul2.jpg",
+      "https://example.com/images/seoul3.jpg"
     ],
     "isFav": true,
     "package": {
-      "price": 800,
+      "price": 920,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Free Hanbok rental experience"
+    },
+    "reviews": 4.8,
+    "reviewCount": 780,
+    "continent": "Asia"
+  },
+  {
+    "country": "Thailand",
+    "city": "Bangkok",
+    "flag": "https://flagcdn.com/th.svg",
+    "description": "A bustling city known for ornate temples, lively street markets, and delicious cuisine.",
+    "gallery": [
+      "https://example.com/images/bangkok1.jpg",
+      "https://example.com/images/bangkok2.jpg",
+      "https://example.com/images/bangkok3.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 680,
       "stayDuration": "3 Nights / 4 Days",
-      "offer": "Free Bosphorus cruise"
+      "offer": "Free Thai cooking class"
     },
     "reviews": 4.6,
-    "reviewCount": 980,
-    "continent": "Europe"
+    "reviewCount": 910,
+    "continent": "Asia"
+  },
+  {
+    "country": "Vietnam",
+    "city": "Hanoi",
+    "flag": "https://flagcdn.com/vn.svg",
+    "description": "The charming capital of Vietnam with French colonial architecture and a rich history.",
+    "gallery": [
+      "https://example.com/images/hanoi1.jpg",
+      "https://example.com/images/hanoi2.jpg",
+      "https://example.com/images/hanoi3.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 550,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free water puppet show tickets"
+    },
+    "reviews": 4.5,
+    "reviewCount": 520,
+    "continent": "Asia"
+  },
+  {
+    "country": "Singapore",
+    "city": "Singapore",
+    "flag": "https://flagcdn.com/sg.svg",
+    "description": "A modern city-state known for its stunning gardens, diverse culture, and impressive skyline.",
+    "gallery": [
+      "https://example.com/images/singapore1.jpg",
+      "https://example.com/images/singapore2.jpg",
+      "https://example.com/images/singapore3.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 1100,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Free Gardens by the Bay entry"
+    },
+    "reviews": 4.9,
+    "reviewCount": 1200,
+    "continent": "Asia"
+  },
+  {
+    "country": "Malaysia",
+    "city": "Kuala Lumpur",
+    "flag": "https://flagcdn.com/my.svg",
+    "description": "A multicultural city with iconic Petronas Twin Towers and vibrant street life.",
+    "gallery": [
+      "https://example.com/images/kualalumpur1.jpg",
+      "https://example.com/images/kualalumpur2.jpg",
+      "https://example.com/images/kualalumpur3.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 700,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free Petronas Twin Towers observation deck visit"
+    },
+    "reviews": 4.4,
+    "reviewCount": 650,
+    "continent": "Asia"
+  },
+  {
+    "country": "Indonesia",
+    "city": "Bali",
+    "flag": "https://flagcdn.com/id.svg",
+    "description": "The 'Island of the Gods,' famous for its beaches, temples, and spiritual retreats.",
+    "gallery": [
+      "https://example.com/images/bali1.jpg",
+      "https://example.com/images/bali2.jpg",
+      "https://example.com/images/bali3.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 780,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Free Tanah Lot Temple visit"
+    },
+    "reviews": 4.7,
+    "reviewCount": 890,
+    "continent": "Asia"
+  },
+  {
+    "country": "China",
+    "city": "Beijing",
+    "flag": "https://flagcdn.com/cn.svg",
+    "description": "The historical capital of China with iconic sites like the Forbidden City and the Great Wall.",
+    "gallery": [
+      "https://example.com/images/beijing1.jpg",
+      "https://example.com/images/beijing2.jpg",
+      "https://example.com/images/beijing3.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 880,
+      "stayDuration": "5 Nights / 6 Days",
+      "offer": "Free Great Wall day trip"
+    },
+    "reviews": 4.6,
+    "reviewCount": 1050,
+    "continent": "Asia"
+  },
+  {
+    "country": "Philippines",
+    "city": "Manila",
+    "flag": "https://flagcdn.com/ph.svg",
+    "description": "A bustling metropolis with a mix of Spanish colonial architecture and modern developments.",
+    "gallery": [
+      "https://example.com/images/manila1.jpg",
+      "https://example.com/images/manila2.jpg",
+      "https://example.com/images/manila3.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 620,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free Intramuros walking tour"
+    },
+    "reviews": 4.3,
+    "reviewCount": 480,
+    "continent": "Asia"
+  },
+  {
+    "country": "Sri Lanka",
+    "city": "Colombo",
+    "flag": "https://flagcdn.com/lk.svg",
+    "description": "A vibrant capital city with a blend of colonial and modern architecture along the Indian Ocean.",
+    "gallery": [
+      "https://example.com/images/colombo1.jpg",
+      "https://example.com/images/colombo2.jpg",
+      "https://example.com/images/colombo3.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 580,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free city sightseeing tour"
+    },
+    "reviews": 4.2,
+    "reviewCount": 390,
+    "continent": "Asia"
+  },
+  {
+    "country": "Nepal",
+    "city": "Kathmandu",
+    "flag": "https://flagcdn.com/np.svg",
+    "description": "A city nestled in the Himalayas, known for its ancient temples and vibrant culture.",
+    "gallery": [
+      "https://example.com/images/kathmandu1.jpg",
+      "https://example.com/images/kathmandu2.jpg",
+      "https://example.com/images/kathmandu3.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 520,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Free Pashupatinath Temple visit"
+    },
+    "reviews": 4.5,
+    "reviewCount": 410,
+    "continent": "Asia"
+  },
+
+  
+  {
+    "country": "USA",
+    "city": "New York",
+    "flag": "https://flagcdn.com/us.svg",
+    "description": "The Big Apple, a buzzing city of culture, skyscrapers, and endless entertainment.",
+    "gallery": [
+      "https://example.com/images/ny1.jpg",
+      "https://example.com/images/ny2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 999,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Free Statue of Liberty cruise"
+    },
+    "reviews": 4.7,
+    "reviewCount": 950,
+    "continent": "North America"
+  },
+  {
+    "country": "USA",
+    "city": "San Francisco",
+    "flag": "https://flagcdn.com/us.svg",
+    "description": "A scenic city famous for the Golden Gate Bridge, tech innovation, and steep streets.",
+    "gallery": [
+      "https://example.com/images/sf1.jpg",
+      "https://example.com/images/sf2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 940,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free Alcatraz Island tour"
+    },
+    "reviews": 4.5,
+    "reviewCount": 430,
+    "continent": "North America"
+  },
+  {
+    "country": "Canada",
+    "city": "Toronto",
+    "flag": "https://flagcdn.com/ca.svg",
+    "description": "Canada's largest city, known for its multiculturalism and iconic CN Tower.",
+    "gallery": [
+      "https://example.com/images/toronto1.jpg",
+      "https://example.com/images/toronto2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 880,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free CN Tower observation deck access"
+    },
+    "reviews": 4.6,
+    "reviewCount": 720,
+    "continent": "North America"
+  },
+  {
+    "country": "Mexico",
+    "city": "Cancun",
+    "flag": "https://flagcdn.com/mx.svg",
+    "description": "A popular resort city in Mexico known for its beautiful beaches and vibrant nightlife.",
+    "gallery": [
+      "https://example.com/images/cancun1.jpg",
+      "https://example.com/images/cancun2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 750,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "All-inclusive resort stay"
+    },
+    "reviews": 4.4,
+    "reviewCount": 650,
+    "continent": "North America"
+  },
+  {
+    "country": "Canada",
+    "city": "Montreal",
+    "flag": "https://flagcdn.com/ca.svg",
+    "description": "A vibrant city with a unique blend of European charm and North American energy.",
+    "gallery": [
+      "https://example.com/images/montreal1.jpg",
+      "https://example.com/images/montreal2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 800,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free Old Montreal walking tour"
+    },
+    "reviews": 4.3,
+    "reviewCount": 580,
+    "continent": "North America"
+  },
+  {
+    "country": "USA",
+    "city": "Los Angeles",
+    "flag": "https://flagcdn.com/us.svg",
+    "description": "The entertainment capital of the world, home to Hollywood and beautiful beaches.",
+    "gallery": [
+      "https://example.com/images/losangeles1.jpg",
+      "https://example.com/images/losangeles2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 950,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Free Universal Studios Hollywood entry (select days)"
+    },
+    "reviews": 4.7,
+    "reviewCount": 810,
+    "continent": "North America"
+  },
+  {
+    "country": "Mexico",
+    "city": "Mexico City",
+    "flag": "https://flagcdn.com/mx.svg",
+    "description": "A sprawling metropolis with rich history, art, and vibrant culture.",
+    "gallery": [
+      "https://example.com/images/mexicocity1.jpg",
+      "https://example.com/images/mexicocity2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 700,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free Teotihuacan pyramids tour"
+    },
+    "reviews": 4.5,
+    "reviewCount": 690,
+    "continent": "North America"
+  },
+  {
+    "country": "USA",
+    "city": "Miami",
+    "flag": "https://flagcdn.com/us.svg",
+    "description": "Known for its beautiful beaches, Latin American culture, and vibrant nightlife.",
+    "gallery": [
+      "https://example.com/images/miami1.jpg",
+      "https://example.com/images/miami2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 890,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free South Beach boat tour"
+    },
+    "reviews": 4.6,
+    "reviewCount": 750,
+    "continent": "North America"
+  },
+  {
+    "country": "Canada",
+    "city": "Vancouver",
+    "flag": "https://flagcdn.com/ca.svg",
+    "description": "A coastal seaport city with stunning mountain and ocean views.",
+    "gallery": [
+      "https://example.com/images/vancouver1.jpg",
+      "https://example.com/images/vancouver2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 920,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Free Capilano Suspension Bridge visit"
+    },
+    "reviews": 4.7,
+    "reviewCount": 680,
+    "continent": "North America"
+  },
+  {
+    "country": "Mexico",
+    "city": "Playa del Carmen",
+    "flag": "https://flagcdn.com/mx.svg",
+    "description": "A relaxed beach town on the Riviera Maya with Mayan ruins nearby.",
+    "gallery": [
+      "https://example.com/images/playadelcarmen1.jpg",
+      "https://example.com/images/playadelcarmen2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 780,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Free Chichen Itza day trip"
+    },
+    "reviews": 4.4,
+    "reviewCount": 610,
+    "continent": "North America"
+  },
+  {
+    "country": "Costa Rica",
+    "city": "La Fortuna",
+    "flag": "https://flagcdn.com/cr.svg",
+    "description": "Known for the Arenal Volcano, hot springs, and adventure activities.",
+    "gallery": [
+      "https://example.com/images/lafortuna1.jpg",
+      "https://example.com/images/lafortuna2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 680,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free hot springs entry"
+    },
+    "reviews": 4.7,
+    "reviewCount": 550,
+    "continent": "North America"
+  },
+  {
+    "country": "Cuba",
+    "city": "Havana",
+    "flag": "https://flagcdn.com/cu.svg",
+    "description": "A city frozen in time with colorful colonial architecture and classic cars.",
+    "gallery": [
+      "https://example.com/images/havana1.jpg",
+      "https://example.com/images/havana2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 720,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Free classic car tour"
+    },
+    "reviews": 4.5,
+    "reviewCount": 480,
+    "continent": "North America"
+  },
+  {
+    "country": "Panama",
+    "city": "Panama City",
+    "flag": "https://flagcdn.com/pa.svg",
+    "description": "A modern city with a historic old town and the famous Panama Canal.",
+    "gallery": [
+      "https://example.com/images/panamacity1.jpg",
+      "https://example.com/images/panamacity2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 750,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free Panama Canal tour (partial)"
+    },
+    "reviews": 4.4,
+    "reviewCount": 420,
+    "continent": "North America"
+  },
+  {
+    "country": "Jamaica",
+    "city": "Montego Bay",
+    "flag": "https://flagcdn.com/jm.svg",
+    "description": "Known for its beautiful beaches, resorts, and vibrant reggae culture.",
+    "gallery": [
+      "https://example.com/images/montegobay1.jpg",
+      "https://example.com/images/montegobay2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 650,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "All-inclusive beach resort stay"
+    },
+    "reviews": 4.6,
+    "reviewCount": 510,
+    "continent": "North America"
+  },
+  {
+    "country": "Dominican Republic",
+    "city": "Punta Cana",
+    "flag": "https://flagcdn.com/do.svg",
+    "description": "Famous for its white-sand beaches, turquoise waters, and numerous resorts.",
+    "gallery": [
+      "https://example.com/images/puntacana1.jpg",
+      "https://example.com/images/puntacana2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 700,
+      "stayDuration": "5 Nights / 6 Days",
+      "offer": "Free catamaran cruise"
+    },
+    "reviews": 4.5,
+    "reviewCount": 580,
+    "continent": "North America"
+  },
+  {
+    "country": "Bahamas",
+    "city": "Nassau",
+    "flag": "https://flagcdn.com/bs.svg",
+    "description": "The vibrant capital with beautiful beaches, casinos, and historic sites.",
+    "gallery": [
+      "https://example.com/images/nassau1.jpg",
+      "https://example.com/images/nassau2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 780,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free snorkeling excursion"
+    },
+    "reviews": 4.7,
+    "reviewCount": 490,
+    "continent": "North America"
+  },
+  {
+    "country": "Belize",
+    "city": "San Pedro",
+    "flag": "https://flagcdn.com/bz.svg",
+    "description": "A coastal town on Ambergris Caye, known for diving and the Belize Barrier Reef.",
+    "gallery": [
+      "https://example.com/images/sanpedro1.jpg",
+      "https://example.com/images/sanpedro2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 820,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Free snorkeling gear rental"
+    },
+    "reviews": 4.6,
+    "reviewCount": 450,
+    "continent": "North America"
+  },
+  {
+    "country": "Guatemala",
+    "city": "Antigua",
+    "flag": "https://flagcdn.com/gt.svg",
+    "description": "A colonial city surrounded by volcanoes, known for its Spanish architecture.",
+    "gallery": [
+      "https://example.com/images/antigua1.jpg",
+      "https://example.com/images/antigua2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 600,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free volcano hike (guided)"
+    },
+    "reviews": 4.4,
+    "reviewCount": 380,
+    "continent": "North America"
+  },
+  {
+    "country": "El Salvador",
+    "city": "San Salvador",
+    "flag": "https://flagcdn.com/sv.svg",
+    "description": "The capital city with a mix of modern and historical sites, and volcanic landscapes nearby.",
+    "gallery": [
+      "https://example.com/images/sansalvador1.jpg",
+      "https://example.com/images/sansalvador2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 550,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free city and volcano tour"
+    },
+    "reviews": 4.3,
+    "reviewCount": 350,
+    "continent": "North America"
+  },
+  {
+    "country": "Honduras",
+    "city": "Roatán",
+    "flag": "https://flagcdn.com/hn.svg",
+    "description": "A Caribbean island known for its coral reefs and diving opportunities.",
+    "gallery": [
+      "https://example.com/images/roatan1.jpg",
+      "https://example.com/images/roatan2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 790,
+      "stayDuration": "5 Nights / 6 Days",
+      "offer": "Free scuba diving introductory lesson"
+    },
+    "reviews": 4.5,
+    "reviewCount": 410,
+    "continent": "North America"
+  },
+
+
+  {
+    "country": "Brazil",
+    "city": "Rio de Janeiro",
+    "flag": "https://flagcdn.com/br.svg",
+    "description": "Famous for its Carnival, stunning beaches like Copacabana and Ipanema, and Sugarloaf Mountain.",
+    "gallery": [
+      "https://example.com/images/rio1.jpg",
+      "https://example.com/images/rio2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 820,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Free Sugarloaf Mountain cable car ride"
+    },
+    "reviews": 4.7,
+    "reviewCount": 890,
+    "continent": "South America"
+  },
+  {
+    "country": "Argentina",
+    "city": "Buenos Aires",
+    "flag": "https://flagcdn.com/ar.svg",
+    "description": "The 'Paris of South America,' known for its European-style architecture and tango culture.",
+    "gallery": [
+      "https://example.com/images/buenosaires1.jpg",
+      "https://example.com/images/buenosaires2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 790,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free tango show with dinner"
+    },
+    "reviews": 4.5,
+    "reviewCount": 580,
+    "continent": "South America"
+  },
+  {
+    "country": "Peru",
+    "city": "Machu Picchu",
+    "flag": "https://flagcdn.com/pe.svg",
+    "description": "The 'Lost City of the Incas,' a breathtaking ancient citadel high in the Andes.",
+    "gallery": [
+      "https://example.com/images/machupicchu1.jpg",
+      "https://example.com/images/machupicchu2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 950,
+      "stayDuration": "5 Nights / 6 Days",
+      "offer": "Guided tour of Machu Picchu included"
+    },
+    "reviews": 4.9,
+    "reviewCount": 1020,
+    "continent": "South America"
+  },
+  {
+    "country": "Colombia",
+    "city": "Cartagena",
+    "flag": "https://flagcdn.com/co.svg",
+    "description": "A colorful colonial city on the Caribbean coast with walled fortifications.",
+    "gallery": [
+      "https://example.com/images/cartagena1.jpg",
+      "https://example.com/images/cartagena2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 760,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free walking tour of the Old Town"
+    },
+    "reviews": 4.6,
+    "reviewCount": 710,
+    "continent": "South America"
+  },
+  {
+    "country": "Ecuador",
+    "city": "Galapagos Islands",
+    "flag": "https://flagcdn.com/ec.svg",
+    "description": "Famous for its unique wildlife and volcanic landscapes, inspiring Darwin's theory of evolution.",
+    "gallery": [
+      "https://example.com/images/galapagos1.jpg",
+      "https://example.com/images/galapagos2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 1500,
+      "stayDuration": "7 Nights / 8 Days",
+      "offer": "Guided wildlife viewing excursions"
+    },
+    "reviews": 4.8,
+    "reviewCount": 640,
+    "continent": "South America"
+  },
+  {
+    "country": "Chile",
+    "city": "Santiago",
+    "flag": "https://flagcdn.com/cl.svg",
+    "description": "A modern capital nestled in a valley surrounded by the Andes and coastal ranges.",
+    "gallery": [
+      "https://example.com/images/santiago1.jpg",
+      "https://example.com/images/santiago2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 700,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free city tour and wine tasting"
+    },
+    "reviews": 4.4,
+    "reviewCount": 530,
+    "continent": "South America"
+  },
+  {
+    "country": "Bolivia",
+    "city": "Salar de Uyuni",
+    "flag": "https://flagcdn.com/bo.svg",
+    "description": "The world's largest salt flat, offering surreal and stunning landscapes.",
+    "gallery": [
+      "https://example.com/images/salaruyuni1.jpg",
+      "https://example.com/images/salaruyuni2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 880,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Guided tour of the salt flats and surrounding areas"
+    },
+    "reviews": 4.7,
+    "reviewCount": 490,
+    "continent": "South America"
+  },
+  {
+    "country": "Venezuela",
+    "city": "Angel Falls",
+    "flag": "https://flagcdn.com/ve.svg",
+    "description": "The world's tallest uninterrupted waterfall, located in Canaima National Park.",
+    "gallery": [
+      "https://example.com/images/angelfalls1.jpg",
+      "https://example.com/images/angelfalls2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 920,
+      "stayDuration": "5 Nights / 6 Days",
+      "offer": "Flights and guided tours to Angel Falls"
+    },
+    "reviews": 4.6,
+    "reviewCount": 380,
+    "continent": "South America"
+  },
+  {
+    "country": "Paraguay",
+    "city": "Asunción",
+    "flag": "https://flagcdn.com/py.svg",
+    "description": "A historic capital city on the Paraguay River with colonial-era architecture.",
+    "gallery": [
+      "https://example.com/images/asuncion1.jpg",
+      "https://example.com/images/asuncion2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 650,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free historical city tour"
+    },
+    "reviews": 4.3,
+    "reviewCount": 320,
+    "continent": "South America"
+  },
+  {
+    "country": "Uruguay",
+    "city": "Montevideo",
+    "flag": "https://flagcdn.com/uy.svg",
+    "description": "A coastal capital with a relaxed atmosphere and beautiful beaches.",
+    "gallery": [
+      "https://example.com/images/montevideo1.jpg",
+      "https://example.com/images/montevideo2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 710,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free beach day trip"
+    },
+    "reviews": 4.4,
+    "reviewCount": 410,
+    "continent": "South America"
+  },
+  {
+    "country": "Guyana",
+    "city": "Kaieteur Falls",
+    "flag": "https://flagcdn.com/gy.svg",
+    "description": "A powerful and scenic waterfall on the Potaro River in Kaieteur National Park.",
+    "gallery": [
+      "https://example.com/images/kaieteurfalls1.jpg",
+      "https://example.com/images/kaieteurfalls2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 850,
+      "stayDuration": "4 Nights / 5 Days",
+      "offer": "Flights and guided tours to Kaieteur Falls"
+    },
+    "reviews": 4.5,
+    "reviewCount": 290,
+    "continent": "South America"
+  },
+  {
+    "country": "Suriname",
+    "city": "Paramaribo",
+    "flag": "https://flagcdn.com/sr.svg",
+    "description": "The capital city with a unique blend of Dutch colonial architecture and Caribbean culture.",
+    "gallery": [
+      "https://example.com/images/paramaribo1.jpg",
+      "https://example.com/images/paramaribo2.jpg"
+    ],
+    "isFav": false,
+    "package": {
+      "price": 680,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free historical city and river tour"
+    },
+    "reviews": 4.2,
+    "reviewCount": 260,
+    "continent": "South America"
+  },
+
+
+  {
+    "country": "Egypt",
+    "city": "Cairo",
+    "flag": "https://flagcdn.com/eg.svg",
+    "description": "A city steeped in history with its iconic pyramids, ancient ruins, and vibrant culture.",
+    "gallery": [
+      "https://example.com/images/cairo1.jpg",
+      "https://example.com/images/cairo2.jpg"
+    ],
+    "isFav": true,
+    "package": {
+      "price": 670,
+      "stayDuration": "3 Nights / 4 Days",
+      "offer": "Free Pyramid tour"
+    },
+    "reviews": 4.5,
+    "reviewCount": 1100,
+    "continent": "Africa"
   }
 ]

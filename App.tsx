@@ -4,6 +4,7 @@ import Header from './components/home/ui-elements/Header'
 import SearchInput from './components/home/ui-elements/SearchInput'
 import { StyleSheet } from 'react-native'
 import SubHeader from './components/home/ui-elements/SubHeader'
+import Carousel from './components/home/ui-elements/Carousel'
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <Header />
         <SearchInput />
         <SubHeader />
+        <Carousel />
       </SafeAreaView>
     </SafeAreaProvider>
   )

@@ -6,7 +6,6 @@ import DB from '../../../data/db.json'
 export default function Carousel() {
   const continents = useMemo(() => {
     const tempContinentArray = DB.map(place => place.continent);
-    return tempContinentArray;
     const tempContinentSet = new Set(tempContinentArray);
     return Array.from(tempContinentSet);
   }, [DB]);

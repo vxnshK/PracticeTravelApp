@@ -7,7 +7,11 @@ type TPillsProps = {
 
 export default function Pills({ continents }: TPillsProps) {
   return (
-    <ScrollView horizontal={false} style={styles.pillsContainer}>
+    <ScrollView
+      horizontal={true}
+      style={styles.pillsContainer}
+      contentContainerStyle={styles.contentContainer}
+    >
       {continents.map((c,i) => 
         <Text style={styles.pillItem} key={c+i}>{c}</Text>
       )}
@@ -17,10 +21,20 @@ export default function Pills({ continents }: TPillsProps) {
 
 const styles = StyleSheet.create({
   pillsContainer: {
-    height: 500
+    paddingBottom: 5,
+  },
+  contentContainer: {
+    columnGap: 12
   },
   pillItem: {
-    marginLeft: 10,
-    marginRight: 10
+    backgroundColor: '#FFF',
+    paddingTop: 7,
+    paddingBottom: 8,
+    paddingLeft: 18,
+    paddingRight: 18,
+    borderRadius: 100,
+    fontFamily: 'Gotham Book',
+    elevation: 1,
+    fontSize: 13.5,
   }
 })

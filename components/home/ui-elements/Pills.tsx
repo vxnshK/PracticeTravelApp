@@ -22,7 +22,7 @@ export default function Pills({
   const flatListRef = useRef<RNFlatList<string>>(null);
 
   const changeContinentHandler = (continent: string, index: number) => {
-    flatListRef.current?.scrollToIndex({ index, animated: true });
+    flatListRef.current?.scrollToIndex({ index, animated: true, viewPosition: 0.5 });
     setSelectedContinent(continent);
   };
 

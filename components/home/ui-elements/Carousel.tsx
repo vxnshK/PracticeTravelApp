@@ -2,6 +2,7 @@ import {StyleSheet, View} from 'react-native';
 import React, {useMemo, useState} from 'react';
 import Pills from './Pills';
 import DB from '../../../data/db.json';
+import CarouselCard from './CarouselCard';
 
 export default function Carousel() {
   const [selectedContinent, setSelectedContinent] = useState('Europe');
@@ -19,6 +20,7 @@ export default function Carousel() {
         selectedContinent={selectedContinent}
         setSelectedContinent={setSelectedContinent}
       />
+      <CarouselCard />
     </View>
   );
 }

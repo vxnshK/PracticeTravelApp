@@ -1,8 +1,7 @@
 import * as React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
-import {useSharedValue} from 'react-native-reanimated';
-import {ICarouselInstance, Pagination} from 'react-native-reanimated-carousel';
+import {ICarouselInstance} from 'react-native-reanimated-carousel';
 import Carousel from 'react-native-reanimated-carousel';
 
 const defaultDataWith6Colors = [
@@ -24,18 +23,6 @@ const renderItem = ({item}: {item: string}) => {
 
 function CarouselCard() {
   const ref = React.useRef<ICarouselInstance>(null);
-  const progress = useSharedValue<number>(0);
-
-  const onPressPagination = (index: number) => {
-    ref.current?.scrollTo({
-      /**
-       * Calculate the difference between the current index and the target index
-       * to ensure that the carousel scrolls to the nearest index
-       */
-      count: index - progress.value,
-      animated: true,
-    });
-  };
 
   return (
     <>
@@ -54,7 +41,7 @@ function CarouselCard() {
             parallaxScrollingOffset: 95,
           }}
           renderItem={renderItem}
-          onProgressChange={progress}
+          vertical={true}
           onConfigurePanGesture={() => {
 
           }}

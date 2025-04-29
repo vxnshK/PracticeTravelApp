@@ -44,7 +44,7 @@ function CarouselCard() {
           }}
           renderItem={renderItem}
           onConfigurePanGesture={gestureChain => (
-            gestureChain.activeOffsetX([-10, 10])
+            gestureChain.activeOffsetX([-10, 10]).activeOffsetY([-10, 10])
           )}
         />
       </GestureHandlerRootView>

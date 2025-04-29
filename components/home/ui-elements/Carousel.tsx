@@ -3,7 +3,6 @@ import React, {useMemo, useState} from 'react';
 import Pills from './Pills';
 import DB from '../../../data/db.json';
 import CarouselCard from './CarouselCard';
-import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 export default function Carousel() {
   const [selectedContinent, setSelectedContinent] = useState('Europe');
@@ -21,9 +20,7 @@ export default function Carousel() {
         selectedContinent={selectedContinent}
         setSelectedContinent={setSelectedContinent}
       />
-      <GestureHandlerRootView style={{ flex: 1 }}>
-        <CarouselCard />
-      </GestureHandlerRootView>
+      <CarouselCard />
     </View>
   );
 }

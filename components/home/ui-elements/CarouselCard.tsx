@@ -6,9 +6,9 @@ import Carousel from 'react-native-reanimated-carousel';
 
 const defaultDataWith6Colors = [
   '#1B2A49',
-  '#2C3E63',
-  '#3D5280',
-  '#4F679E',
+  // '#2C3E63',
+  // '#3D5280',
+  // '#4F679E',
   '#628BBA',
   '#76AFD6',
 ];
@@ -29,22 +29,23 @@ function CarouselCard() {
       <GestureHandlerRootView style={styles.container}>
         <Carousel
           ref={ref}
+          style={styles.carousel}
           autoPlay={true}
-          autoPlayInterval={4500}
+          autoPlayInterval={4000}
           data={defaultDataWith6Colors}
           height={520}
           width={430 * 0.75}
-          style={styles.carousel}
+          pagingEnabled={true}
+          snapEnabled={true}
           mode="parallax"
           modeConfig={{
             parallaxScrollingScale: 0.9,
             parallaxScrollingOffset: 95,
           }}
           renderItem={renderItem}
-          vertical={true}
-          onConfigurePanGesture={() => {
-
-          }}
+          onConfigurePanGesture={gestureChain => (
+            gestureChain.activeOffsetX([-10, 10])
+          )}
         />
       </GestureHandlerRootView>
     </>

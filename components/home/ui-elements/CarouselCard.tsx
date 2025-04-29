@@ -4,7 +4,7 @@ import { ICarouselInstance } from "react-native-reanimated-carousel";
 import Carousel from "react-native-reanimated-carousel";
 
 const defaultDataWith6Colors = [
-  "#B0604D",
+  "#B06",
   "#899F9C",
   "#B3C680",
   "#5C6265",

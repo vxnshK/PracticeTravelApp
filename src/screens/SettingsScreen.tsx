@@ -1,12 +1,15 @@
-import React from 'react'
-import { View, Text, StyleSheet } from 'react-native'
+import React from 'react';
+import {View, Text, StyleSheet} from 'react-native';
+import FadeWrapper from '../Wrappers/FadeWrapper';
 
 export default function SettingsScreen() {
   return (
-    <View style={styles.container}>
-      <Text>Settings Screen</Text>
-    </View>
-  )
+    <FadeWrapper>
+      <View style={styles.container}>
+        <Text>Settings Screen</Text>
+      </View>
+    </FadeWrapper>
+  );
 }
 
 const styles = StyleSheet.create({
@@ -15,4 +18,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-})
+});

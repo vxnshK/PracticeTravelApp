@@ -1,18 +1,19 @@
 import React from 'react'
-import { View, StyleSheet } from 'react-native'
+import { StyleSheet } from 'react-native'
 import Header from '../../components/home/ui-elements/Header'
 import SearchInput from '../../components/home/ui-elements/SearchInput'
 import SubHeader from '../../components/home/ui-elements/SubHeader'
 import Carousel from '../../components/home/ui-elements/Carousel'
+import { SafeAreaView } from 'react-native-safe-area-context'
 
 export default function HomeScreen() {
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <Header />
       <SearchInput />
       <SubHeader />
       <Carousel />
-    </View>
+    </SafeAreaView>
   )
 }
 

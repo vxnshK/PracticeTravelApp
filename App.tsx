@@ -18,9 +18,14 @@ function App() {
             tabBarLabelStyle: {
               fontSize: 14,
               fontWeight: '600',
+              fontFamily: 'Gotham Medium',
+              marginTop: 15
             },
             tabBarActiveTintColor: '#007aff',
             tabBarInactiveTintColor: 'gray',
+            tabBarIconStyle: {
+              display: 'none'
+            }
           }}
         >
           <Tab.Screen name="Home" component={HomeScreen} />

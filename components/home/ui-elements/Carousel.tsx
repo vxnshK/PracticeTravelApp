@@ -21,9 +21,7 @@ export default function Carousel() {
         selectedContinent={selectedContinent}
         setSelectedContinent={setSelectedContinent}
       />
-      <GestureHandlerRootView style={styles.container}>
-        <CarouselCard />
-      </GestureHandlerRootView>
+      <CarouselCard />
     </View>
   );
 }
@@ -33,12 +31,5 @@ const styles = StyleSheet.create({
     paddingTop: 20,
     paddingLeft: 20,
     paddingRight: 20,
-  },
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    elevation: 30,
-    marginTop: 10
-  },
+  }
 });

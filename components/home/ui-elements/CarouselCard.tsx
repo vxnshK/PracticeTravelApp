@@ -1,14 +1,13 @@
 import * as React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
-import {GestureHandlerRootView} from 'react-native-gesture-handler';
 import {ICarouselInstance} from 'react-native-reanimated-carousel';
 import Carousel from 'react-native-reanimated-carousel';
 
 const defaultDataWith6Colors = [
   '#1B2A49',
-  // '#2C3E63',
-  // '#3D5280',
-  // '#4F679E',
+  '#2C3E63',
+  '#3D5280',
+  '#4F679E',
   '#628BBA',
   '#76AFD6',
 ];
@@ -25,30 +24,24 @@ function CarouselCard() {
   const ref = React.useRef<ICarouselInstance>(null);
 
   return (
-    <>
-      {/* <GestureHandlerRootView style={styles.container}> */}
-        <Carousel
-          ref={ref}
-          style={styles.carousel}
-          autoPlay={true}
-          autoPlayInterval={4000}
-          data={defaultDataWith6Colors}
-          height={520}
-          width={430 * 0.75}
-          pagingEnabled={true}
-          snapEnabled={true}
-          mode="parallax"
-          modeConfig={{
-            parallaxScrollingScale: 0.9,
-            parallaxScrollingOffset: 95,
-          }}
-          renderItem={renderItem}
-          // onConfigurePanGesture={gestureChain => (
-          //   gestureChain.activeOffsetX([-10, 10]).activeOffsetY([-10, 10])
-          // )}
-        />
-      {/* </GestureHandlerRootView> */}
-    </>
+    <View style={styles.container}>
+      <Carousel
+        ref={ref}
+        autoPlay={true}
+        autoPlayInterval={4000}
+        data={defaultDataWith6Colors}
+        height={520}
+        width={430 * 0.75}
+        pagingEnabled={true}
+        snapEnabled={true}
+        mode="parallax"
+        modeConfig={{
+          parallaxScrollingScale: 0.9,
+          parallaxScrollingOffset: 95,
+        }}
+        renderItem={renderItem}
+      />
+    </View>
   );
 }
 
@@ -58,11 +51,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     elevation: 30,
-    marginTop: 10
+    marginTop: 10,
   },
   carousel: {
-    // alignItems: 'center',
-    // justifyContent: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   card: {
     flex: 1,

@@ -58,6 +58,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     elevation: 30,
+    marginTop: 10
   },
   carousel: {
     alignItems: 'center',

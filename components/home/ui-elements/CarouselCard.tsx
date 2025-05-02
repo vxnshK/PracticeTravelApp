@@ -26,7 +26,7 @@ function CarouselCard() {
 
   return (
     <>
-      <GestureHandlerRootView style={styles.container}>
+      {/* <GestureHandlerRootView style={styles.container}> */}
         <Carousel
           ref={ref}
           style={styles.carousel}
@@ -43,11 +43,11 @@ function CarouselCard() {
             parallaxScrollingOffset: 95,
           }}
           renderItem={renderItem}
-          onConfigurePanGesture={gestureChain => (
-            gestureChain.activeOffsetX([-10, 10]).activeOffsetY([-10, 10])
-          )}
+          // onConfigurePanGesture={gestureChain => (
+          //   gestureChain.activeOffsetX([-10, 10]).activeOffsetY([-10, 10])
+          // )}
         />
-      </GestureHandlerRootView>
+      {/* </GestureHandlerRootView> */}
     </>
   );
 }
@@ -61,10 +61,8 @@ const styles = StyleSheet.create({
     marginTop: 10
   },
   carousel: {
-    alignItems: 'center',
-    justifyContent: 'center',
-    width: '100%',
-    height: 248,
+    // alignItems: 'center',
+    // justifyContent: 'center',
   },
   card: {
     flex: 1,

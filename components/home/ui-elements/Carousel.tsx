@@ -13,6 +13,13 @@ export default function Carousel() {
     return Array.from(tempContinentSet);
   }, [DB]);
 
+  const carouselCountries = useMemo(() => {
+    if (!selectedContinent) return [];
+    const tempcarouselCountries = DB.filter(place => place.continent === selectedContinent);
+    return tempcarouselCountries;
+  }, [selectedContinent]);
+
+
   return (
     <View style={styles.carouselContainer}>
       <Pills
@@ -20,7 +27,7 @@ export default function Carousel() {
         selectedContinent={selectedContinent}
         setSelectedContinent={setSelectedContinent}
       />
-      <CarouselCard />
+      <CarouselCard carouselCountries={carouselCountries} />
     </View>
   );
 }

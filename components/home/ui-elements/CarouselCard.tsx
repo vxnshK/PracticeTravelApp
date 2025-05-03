@@ -1,26 +1,18 @@
 import * as React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {View, Text, StyleSheet, Image} from 'react-native';
 import {ICarouselInstance} from 'react-native-reanimated-carousel';
 import Carousel from 'react-native-reanimated-carousel';
 
-const defaultDataWith6Colors = [
-  '#1B2A49',
-  '#2C3E63',
-  '#3D5280',
-  '#4F679E',
-  '#628BBA',
-  '#76AFD6',
-];
-
-const renderItem = ({item}: {item: string}) => {
+const renderItem = ({item}: any) => {
   return (
-    <View style={[styles.card, {backgroundColor: item}]}>
-      <Text style={styles.text}>{item}</Text>
+    <View style={[styles.card]}>
+      <Text style={styles.city}>{item.city}</Text>
+      <Image source={{uri: item.gallery[0]}} style={styles.imageContainer} />
     </View>
   );
 };
 
-function CarouselCard() {
+function CarouselCard({carouselCountries}: any) {
   const ref = React.useRef<ICarouselInstance>(null);
 
   return (
@@ -29,7 +21,7 @@ function CarouselCard() {
         ref={ref}
         autoPlay={true}
         autoPlayInterval={4000}
-        data={defaultDataWith6Colors}
+        data={carouselCountries}
         height={520}
         width={430 * 0.75}
         pagingEnabled={true}
@@ -63,10 +55,26 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderRadius: 10,
     marginHorizontal: 10,
+    position: 'relative',
   },
-  text: {
+  city: {
+    fontFamily: 'Gotham Bold',
+    position: 'absolute',
+    left: 10,
+    bottom: 100,
+    zIndex: 10,
     color: '#fff',
-    fontWeight: 'bold',
+    fontSize: 15,
+    backgroundColor: '#21252880',
+    paddingHorizontal: 18,
+    paddingVertical: 4.5,
+    borderRadius: 9
+  },
+  imageContainer: {
+    height: 500,
+    width: 320,
+    borderRadius: 20,
+    filter: 'brightness(-1.95)'
   },
 });
 

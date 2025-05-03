@@ -4,6 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { TouchableWithoutFeedback, View } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import Ionicons from '@react-native-vector-icons/ionicons';
 
 import HomeScreen from './src/screens/HomeScreen';
 import SettingsScreen from './src/screens/SettingsScreen';
@@ -29,26 +30,22 @@ function App() {
                 marginRight: 'auto',
                 marginBottom: 30,
                 width: '90%',
-                height: 70,
-              },
-              tabBarLabelStyle: {
-                fontSize: 14,
-                fontWeight: '600',
-                fontFamily: 'Gotham Medium',
+                paddingHorizontal: 20,
+                flexDirection: 'row',
+                alignItems: 'center',
+                paddingBottom: 0
               },
               tabBarButton: ({ onPress, children, accessibilityState }) => {
                 const isSelected = accessibilityState?.selected;
               
                 return (
-                  <TouchableWithoutFeedback onPress={onPress}>
+                  <TouchableWithoutFeedback style={{ justifyContent: 'center', }} onPress={onPress}>
                     <View
                       style={{
-                        flex: 1,
-                        alignItems: 'center',
-                        justifyContent: 'center',
                         backgroundColor: isSelected ? '#ffffff' : '#212528',
                         borderRadius: 100,
                         padding: 10,
+                        alignItems: 'center',
                       }}
                     >
                       {children}
@@ -63,7 +60,7 @@ function App() {
               component={HomeScreen}
               options={{
                 tabBarIcon: ({ color, size }) => (
-                  <></>
+                  <Ionicons name="home" size={20} />
                 ),
               }}
             />
@@ -72,7 +69,7 @@ function App() {
               component={SettingsScreen}
               options={{
                 tabBarIcon: ({ color, size }) => (
-                  <></>
+                  <Ionicons name="home" size={20} />
                 ),
               }}
             />

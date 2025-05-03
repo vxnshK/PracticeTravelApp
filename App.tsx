@@ -30,10 +30,10 @@ function App() {
                 marginRight: 'auto',
                 marginBottom: 30,
                 width: '90%',
-                paddingHorizontal: 20,
+                paddingHorizontal: 9,
                 flexDirection: 'row',
                 alignItems: 'center',
-                paddingBottom: 0,
+                paddingBottom: 0.5,
                 height: 60
               },
               tabBarButton: ({ onPress, children, accessibilityState }) => {

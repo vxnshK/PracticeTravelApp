@@ -59,8 +59,8 @@ function App() {
               name="Home"
               component={HomeScreen}
               options={{
-                tabBarIcon: ({ color, size }) => (
-                  <Ionicons name="home" size={20} />
+                tabBarIcon: ({ focused }) => (
+                  <Ionicons name="home-sharp" size={20} color={focused ? '#212528' : '#ffffff'} />
                 ),
               }}
             />
@@ -68,8 +68,8 @@ function App() {
               name="Settings"
               component={SettingsScreen}
               options={{
-                tabBarIcon: ({ color, size }) => (
-                  <Ionicons name="home" size={20} />
+                tabBarIcon: ({ focused }) => (
+                  <Ionicons name="settings-sharp" size={20} color={focused ? '#212528' : '#ffffff'} />
                 ),
               }}
             />

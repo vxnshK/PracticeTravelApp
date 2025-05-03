@@ -33,7 +33,8 @@ function App() {
                 paddingHorizontal: 20,
                 flexDirection: 'row',
                 alignItems: 'center',
-                paddingBottom: 0
+                paddingBottom: 0,
+                height: 60
               },
               tabBarButton: ({ onPress, children, accessibilityState }) => {
                 const isSelected = accessibilityState?.selected;
@@ -44,7 +45,7 @@ function App() {
                       style={{
                         backgroundColor: isSelected ? '#ffffff' : '#212528',
                         borderRadius: 100,
-                        padding: 10,
+                        padding: 8,
                         alignItems: 'center',
                       }}
                     >

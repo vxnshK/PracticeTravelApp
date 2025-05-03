@@ -5,8 +5,11 @@
     "flag": "https://flagcdn.com/it.svg",
     "description": "The Eternal City, where ancient ruins and Renaissance art collide beautifully.",
     "gallery": [
-      "https://example.com/images/rome1.jpg",
-      "https://example.com/images/rome2.jpg"
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746251310/pexels-photo-3314307_wlhebk.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746251310/pexels-photo-2760519_cd6ogh.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746251310/pexels-photo-2814202_hikxf6.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746251310/pexels-photo-1701595_ro7ouj.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746251310/pexels-photo-52293_gcpfzp.jpg"
     ],
     "isFav": true,
     "package": {
@@ -24,8 +27,12 @@
     "flag": "https://flagcdn.com/it.svg",
     "description": "A unique city of canals, gondolas, and stunning architecture.",
     "gallery": [
-      "https://example.com/images/venice1.jpg",
-      "https://example.com/images/venice2.jpg"
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746251714/pexels-pixabay-258196_gyhftz.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746251717/pexels-pixabay-161101_hawaus.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746251716/pexels-ogphotography-31862271_nf5ykt.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746251716/pexels-david-bartus-43782-586687_uny9r9.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746251714/pexels-jacobmorch-497845_edjpw2.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746251714/pexels-didsss-2954558_zikqcf.jpg"
     ],
     "isFav": true,
     "package": {
@@ -43,9 +50,12 @@
     "flag": "https://flagcdn.com/fr.svg",
     "description": "The romantic capital of the world with iconic landmarks and rich art culture.",
     "gallery": [
-      "https://images.pexels.com/photos/532826/pexels-photo-532826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/2738173/pexels-photo-2738173.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/224756/pexels-photo-224756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252015/pexels-pierre-blache-651604-3073666_emt77t.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252015/pexels-pixabay-460740_ohgozx.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252014/pexels-pixabay-2356_q7tgew.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252014/pexels-pixabay-2344_hmkqgu.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252015/pexels-pierre-blache-651604-2462918_cpxroe.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252016/pexels-shvets-2574631_gdujo3.jpg"
     ],
     "isFav": true,
     "package": {
@@ -63,9 +73,13 @@
     "flag": "https://flagcdn.com/fr.svg",
     "description": "A port city in southern France with historic charm and Mediterranean vibes.",
     "gallery": [
-      "https://images.pexels.com/photos/29803747/pexels-photo-29803747/free-photo-of-scenic-view-of-old-port-and-notre-dame-de-la-garde.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/763699/pexels-photo-763699.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/2076720/pexels-photo-2076720.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252470/pexels-cleo-beater-2150411100-31832730_ithvmd.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252470/pexels-reojuve-15617695_c1a3nm.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252471/pexels-vince-2876790_l5irz7.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252472/pexels-amaurymic-18171673_nd2jvb.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252471/pexels-kabyle-sauvage-332286144-20768156_vgjt9q.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252471/pexels-kabyle-sauvage-332286144-20768162_w9nhlv.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252470/pexels-kabyle-sauvage-332286144-20768157_irjgcw.jpg"
     ],
     "isFav": false,
     "package": {
@@ -83,8 +97,12 @@
     "flag": "https://flagcdn.com/es.svg",
     "description": "A vibrant seaside city known for Gaudí’s architecture, art, and tapas culture.",
     "gallery": [
-      "https://example.com/images/barcelona1.jpg",
-      "https://example.com/images/barcelona2.jpg"
+     "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252633/pexels-orlovamaria-4947788_geuw1a.jpg",
+     "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252636/pexels-enricoperini-705423_bhu9s8.jpg",
+     "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252637/pexels-oidonnyboy-5282585_ag7yff.jpg",
+     "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252638/pexels-jeffrey-czum-254391-3499174_gsdn2u.jpg",
+     "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252638/pexels-alina-rossoshanska-338724645-31869474_mv7yfc.jpg",
+     "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252638/pexels-fahad-alani-789729-1695106_tzobwt.jpg"
     ],
     "isFav": true,
     "package": {
@@ -102,8 +120,14 @@
     "flag": "https://flagcdn.com/es.svg",
     "description": "Spain's central capital, known for elegant boulevards, parks, and rich art collections.",
     "gallery": [
-      "https://example.com/images/madrid1.jpg",
-      "https://example.com/images/madrid2.jpg"
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252797/pexels-spencer-4353813_t3iqy1.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252798/pexels-timwe-723465_xttiqr.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252798/pexels-czapp-arpad-3647289-15434152_an0bfn.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252798/pexels-rickyrecap-1597981_cpq2ei.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252799/pexels-ericazhao-2406875_z3baee.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252799/pexels-alexazabache-3757136_vnntvq.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252803/pexels-alexazabache-3722818_dokh6l.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252803/pexels-kdry-yldz-1193591313-26065563_mbi2m4.jpg"
     ],
     "isFav": false,
     "package": {
@@ -121,8 +145,13 @@
     "flag": "https://flagcdn.com/de.svg",
     "description": "The dynamic German capital filled with history, culture, and modern creativity.",
     "gallery": [
-      "https://example.com/images/berlin1.jpg",
-      "https://example.com/images/berlin2.jpg"
+     "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252978/pexels-lilli-waugh-1263917-2407196_bhzljd.jpg",
+     "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252982/pexels-markusspiske-1268131_bnvfdv.jpg",
+     "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252981/pexels-leventsimsek-29087245_jxr8xw.jpg",
+     "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252981/pexels-blue-18105084_apccqh.jpg",
+     "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252978/pexels-vlado-paunovic-1567547-3067336_klzxj7.jpg",
+     "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252961/pexels-seven11nash-624363_siuflh.jpg",
+     "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252961/pexels-abdel-rahman-abu-baker-958112-1963081_aoyzsc.jpg"
     ],
     "isFav": true,
     "package": {
@@ -140,8 +169,15 @@
     "flag": "https://flagcdn.com/de.svg",
     "description": "A Bavarian city known for Oktoberfest, beer halls, and historic charm.",
     "gallery": [
-      "https://example.com/images/munich1.jpg",
-      "https://example.com/images/munich2.jpg"
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253106/pexels-maria-geller-801267-2127003_a1swso.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253105/pexels-elda-luzi-238542649-31731948_je8rzm.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253104/pexels-filiamariss-31832957_lqqxwm.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253104/pexels-arlindphotography-31885681_g9gqua.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253104/pexels-antonio-sokic-1901950-3523938_rajis6.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253104/pexels-sarah-486644806-31869415_aalddf.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253103/pexels-maria-geller-801267-2127023_j9fw6y.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253103/pexels-filiamariss-31832962_d7ztod.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253102/pexels-filiamariss-31849409_gyfo9z.jpg"
     ],
     "isFav": false,
     "package": {
@@ -159,8 +195,14 @@
     "flag": "https://flagcdn.com/nl.svg",
     "description": "The capital of canals, art museums, and vibrant street life.",
     "gallery": [
-      "https://example.com/images/amsterdam1.jpg",
-      "https://example.com/images/amsterdam2.jpg"
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253266/pexels-gabriel-guita-2927620-4456984_kno9jz.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253265/pexels-sr-solo-3558004_kpxmmf.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253265/pexels-bubi-3111438_yluij3.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253263/pexels-gabriel-guita-2927620-4456988_ddf9iu.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253264/pexels-gabriel-guita-2927620-4456989_xkwokz.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253266/pexels-harvey-1790574_d5pjfq.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253268/pexels-gabriel-guita-2927620-4456987_ktf6gm.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253267/pexels-gabriel-guita-2927620-4456985_nuuyym.jpg"
     ],
     "isFav": true,
     "package": {
@@ -178,8 +220,13 @@
     "flag": "https://flagcdn.com/ch.svg",
     "description": "A global banking hub with stunning alpine scenery and lakeside beauty.",
     "gallery": [
-      "https://example.com/images/zurich1.jpg",
-      "https://example.com/images/zurich2.jpg"
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253459/pexels-ahmetyuksek-21657035_cipdfh.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253459/pexels-ilia-bronskiy-1137858493-30441877_v5dl6h.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253458/pexels-tracehudson-7369495_z87d73.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253457/pexels-triemli-31846015_iozpuf.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253456/pexels-triemli-28838129_n00ana.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253456/pexels-marina-zvada-844583049-20071864_lmn9nk.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253454/pexels-andreamerten-7778076_ocvkvr.jpg"
     ],
     "isFav": false,
     "package": {
@@ -197,8 +244,18 @@
     "flag": "https://flagcdn.com/at.svg",
     "description": "A cultural capital with imperial history, palaces, and classical music.",
     "gallery": [
-      "https://example.com/images/vienna1.jpg",
-      "https://example.com/images/vienna2.jpg"
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253601/pexels-alexey-k-458081116-31822725_vxurpi.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253607/pexels-alexey-k-458081116-31822723_uutbl8.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253606/pexels-alexey-k-458081116-31822736_gkjkxn.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253605/pexels-erdal-erdal-413074041-31902332_ybrmdm.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253602/pexels-river-augustin-1370012990-31838780_ckegix.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253601/pexels-pixabay-208360_gusxed.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253599/pexels-alexey-k-458081116-31822894_iv2enm.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253598/pexels-alexey-k-458081116-31870526_oba36u.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253599/pexels-josh-hild-1270765-2422253_rqbtew.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253601/pexels-river-augustin-1370012990-31838791_n7v2zt.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253601/pexels-alexey-k-458081116-31902685_mjkdfm.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253604/pexels-kubra-aydin-85161907-31807817_k5g8f8.jpg"
     ],
     "isFav": false,
     "package": {
@@ -216,8 +273,14 @@
     "flag": "https://flagcdn.com/pt.svg",
     "description": "A coastal city with colorful streets, rich history, and delicious pastries.",
     "gallery": [
-      "https://example.com/images/lisbon1.jpg",
-      "https://example.com/images/lisbon2.jpg"
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253889/pexels-hikaique-3568789_cdy1dj.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253891/pexels-hillaryfox-1615807_a33qcf.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253892/pexels-fotios-photos-1730403_pmlijv.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253893/pexels-fotios-photos-1559908_p9ouli.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253895/pexels-magda-ehlers-pexels-2544415_rjshle.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253896/pexels-bento-justin-2216976-31889698_akjcyv.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253898/pexels-bento-justin-2216976-31889676_notikk.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746253898/pexels-fotios-photos-1855981_jkqwhi.jpg"
     ],
     "isFav": true,
     "package": {
@@ -235,8 +298,15 @@
     "flag": "https://flagcdn.com/tr.svg",
     "description": "A city bridging Europe and Asia with its stunning mosques, bazaars, and rich culture.",
     "gallery": [
-      "https://example.com/images/istanbul1.jpg",
-      "https://example.com/images/istanbul2.jpg"
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746254081/pexels-ekrulila-6312169_mxwtsm.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746254080/pexels-yunusemresahinoglu-7524199_tcxv19.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746254078/pexels-enginakyurt-2036693_xcwzol.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746254220/pexels-photo-3722806_xoio8j.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746254077/pexels-accankisi-3999943_iot5ou.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746254075/pexels-emrecan-2079666_plyeht.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746254075/pexels-rajsteven-2216275_yejddl.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746254074/pexels-alexazabache-3722806_w0qsxx.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746254073/pexels-ozgomz-2805061_iryho7.jpg"
     ],
     "isFav": true,
     "package": {
@@ -254,8 +324,16 @@
     "flag": "https://flagcdn.com/is.svg",
     "description": "The vibrant capital city, known for its colorful buildings, geothermal activity, and access to stunning natural wonders.",
     "gallery": [
-      "https://example.com/images/reykjavik1.jpg",
-      "https://example.com/images/reykjavik2.jpg"
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746254484/pexels-wired_optics-295717162-13261241_c0erjv.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746254483/pexels-alecdoua-31851511_vdgqcl.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746254751/pexels-cvele-13260616_xe9p2o.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746254483/pexels-piotr-kowalonek-394882276-15264395_qgmvlb.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746254482/pexels-thibaut-tattevin-413078552-18273115_c8xlkk.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746254481/pexels-sebastian-palomino-933481-1990165_uibqzr.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746254481/pexels-jonathanschmer-2364399_x4lip2.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746254481/pexels-bertellifotografia-14424964_gg6ttq.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746254481/pexels-gantas-14489260_taa1lu.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746254482/pexels-piotr-kowalonek-394882276-15264393_vktcfg.jpg"
     ],
     "isFav": true,
     "package": {

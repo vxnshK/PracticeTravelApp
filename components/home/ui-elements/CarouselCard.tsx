@@ -8,6 +8,8 @@ import Ionicons from '@react-native-vector-icons/ionicons';
 const renderItem = ({item}: any) => {
   return (
     <View style={[styles.card]}>
+      <Ionicons style={styles.isFav} name="heart-sharp" size={25} color={'#ffffff'} />
+
       <View style={styles.descContainer}>
         <Text style={styles.country}>{item.country}</Text>
 
@@ -90,6 +92,16 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     marginHorizontal: 10,
     position: 'relative',
+  },
+  isFav: {
+    position: 'absolute',
+    right: 20,
+    top: 20,
+    zIndex: 10,
+    borderWidth: 1,
+    borderColor: '#ffffff',
+    borderRadius: 100,
+    padding: 5,
   },
   descContainer: {
     position: 'absolute',

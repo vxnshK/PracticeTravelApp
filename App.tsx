@@ -14,27 +14,24 @@ const Tab = createBottomTabNavigator();
 function App() {
   return (
     <SafeAreaProvider>
-      <GestureHandlerRootView style={{ flex: 1 }}>
+      <GestureHandlerRootView style={{ flex: 1, backgroundColor: '#ffffff' }}>
         <NavigationContainer>
           <Tab.Navigator
             screenOptions={{
               headerShown: false,
               tabBarShowLabel: false,
-              tabBarActiveTintColor: '#212528',
-              tabBarInactiveTintColor: 'gray',
-              tabBarInactiveBackgroundColor: '#212528',
               tabBarStyle: {
                 borderRadius: 100,
                 backgroundColor: '#212528',
                 marginLeft: 'auto',
                 marginRight: 'auto',
-                marginBottom: 30,
+                marginBottom: 25,
                 width: '90%',
                 paddingHorizontal: 9,
                 flexDirection: 'row',
                 alignItems: 'center',
-                paddingBottom: 4,
-                height: 60
+                paddingBottom: 0,
+                height: 50,
               },
               tabBarButton: ({ onPress, children, accessibilityState }) => {
                 const isSelected = accessibilityState?.selected;

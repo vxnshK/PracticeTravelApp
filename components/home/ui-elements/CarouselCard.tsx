@@ -10,7 +10,9 @@ const renderItem = ({item}: any) => {
     <View style={[styles.card]}>
       <View style={styles.descContainer}>
         <Text style={styles.country}>{item.country}</Text>
+
         <Text style={styles.city}>{item.city}</Text>
+
         <View style={styles.ratingReviewContainer}>
           <View style={styles.ratingsContainer}>
             <Ionicons name="star-sharp" size={16} color={'#f29d0a'} />
@@ -18,6 +20,7 @@ const renderItem = ({item}: any) => {
           </View>
           <Text style={styles.reviewCount}>{item.reviewCount} reviews</Text>
         </View>
+
         <View style={styles.seeMoreContainer}>
           <Text style={styles.seeMoreText}>See More</Text>
           <Ionicons
@@ -28,6 +31,7 @@ const renderItem = ({item}: any) => {
           />
         </View>
       </View>
+
       <View style={styles.imageContainer}>
         <ImageBackground
           source={{uri: item.gallery[1], cache: 'force-cache'}}
@@ -53,7 +57,7 @@ function CarouselCard({carouselCountries}: any) {
         autoPlayInterval={4000}
         data={carouselCountries}
         height={520}
-        width={430 * 0.75}
+        width={420 * 0.75}
         pagingEnabled={true}
         snapEnabled={true}
         mode="parallax"

@@ -20,6 +20,12 @@ const renderItem = ({item}: any) => {
         </View>
         <View style={styles.seeMoreContainer}>
           <Text style={styles.seeMoreText}>See More</Text>
+          <Ionicons
+            style={styles.seeMoreChevronForwardIcon}
+            name="chevron-forward-circle"
+            size={45}
+            color={'#ffffff'}
+          />
         </View>
       </View>
       <View style={styles.imageContainer}>
@@ -89,7 +95,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 18,
     flex: 1,
     gap: 8,
-    width: '95%'
+    width: '95%',
   },
   city: {
     fontFamily: 'Gotham Bold',
@@ -105,18 +111,18 @@ const styles = StyleSheet.create({
   ratingReviewContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 15
+    gap: 15,
   },
   ratingsContainer: {
     borderWidth: 1,
     borderColor: '#7c8891',
     borderRadius: 100,
-    paddingHorizontal: 13,
-    paddingVertical: 6,
+    paddingHorizontal: 10,
+    paddingTop: 4,
+    paddingBottom: 4.4,
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'center',
-    gap: 4
+    gap: 4,
   },
   ratings: {
     fontFamily: 'Gotham Book',
@@ -128,23 +134,33 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 13,
     opacity: 0.7,
+    borderBottomWidth: 0.58,
+    borderBottomColor: '#fff',
+    paddingBottom: 2.4,
+    paddingHorizontal: 4,
   },
   seeMoreContainer: {
-    paddingTop: 13,
-    paddingBottom: 13.4,
-    flex:1,
+    paddingTop: 15,
+    paddingBottom: 15.4,
+    flex: 1,
     flexDirection: 'row',
     justifyContent: 'center',
     backgroundColor: '#ffffff20',
     borderRadius: 100,
     marginTop: 10,
+    position: 'relative',
   },
   seeMoreText: {
-    fontFamily: 'Gotham Book',
+    fontFamily: 'Gotham Medium',
     color: '#fff',
     fontSize: 13.5,
     opacity: 0.7,
     letterSpacing: -0.4,
+  },
+  seeMoreChevronForwardIcon: {
+    position: 'absolute',
+    right: 0,
+    bottom: 0,
   },
   imageContainer: {
     height: '100%',

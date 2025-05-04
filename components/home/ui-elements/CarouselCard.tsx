@@ -7,7 +7,17 @@ import Carousel from 'react-native-reanimated-carousel';
 const renderItem = ({item}: any) => {
   return (
     <View style={[styles.card]}>
-      <Text style={styles.city}>{item.city}</Text>
+      <View style={styles.descContainer}>
+        <Text style={styles.country}>{item.country}</Text>
+        <Text style={styles.city}>{item.city}</Text>
+        <View style={styles.reviewContainer}>
+          <Text style={styles.reviews}>{item.reviews}</Text>
+          <Text style={styles.reviewCount}>{item.reviewCount} reviews</Text>
+        </View>
+        <View style={styles.seeMore}>
+          <Text>See More</Text>
+        </View>
+      </View>
       <View style={styles.imageContainer}>
         <ImageBackground
           source={{uri: item.gallery[0], cache: 'force-cache'}}
@@ -67,18 +77,48 @@ const styles = StyleSheet.create({
     marginHorizontal: 10,
     position: 'relative',
   },
-  city: {
-    fontFamily: 'Gotham Bold',
+  descContainer: {
     position: 'absolute',
     left: 10,
     bottom: 100,
     zIndex: 10,
-    color: '#fff',
-    fontSize: 20,
     paddingHorizontal: 18,
     paddingVertical: 4.5,
-    borderRadius: 9,
+    flex: 1,
+    gap: 7,
   },
+  city: {
+    fontFamily: 'Gotham Bold',
+    color: '#fff',
+    fontSize: 20,
+  },
+  country: {
+    fontFamily: 'Gotham Book',
+    color: '#fff',
+    fontSize: 15,
+  },
+  reviewContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 15
+  },
+  reviews: {
+    fontFamily: 'Gotham Book',
+    color: '#fff',
+    fontSize: 13,
+    borderWidth: 1,
+    borderColor: '#7c8891',
+    borderRadius: 100,
+    paddingHorizontal: 10,
+    paddingVertical: 3
+  },
+  reviewCount: {
+    fontFamily: 'Gotham Book',
+    color: '#fff',
+    fontSize: 13,
+    opacity: 0.7,
+  },
+  seeMore: {},
   imageContainer: {
     height: '100%',
     width: '100%',

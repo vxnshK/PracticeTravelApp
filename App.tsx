@@ -28,12 +28,12 @@ function App() {
                 backgroundColor: '#212528',
                 marginLeft: 'auto',
                 marginRight: 'auto',
-                marginBottom: 30,
+                // marginBottom: 30,
                 width: '90%',
                 paddingHorizontal: 9,
                 flexDirection: 'row',
                 alignItems: 'center',
-                paddingBottom: 0.5,
+                paddingBottom: 4,
                 height: 60
               },
               tabBarButton: ({ onPress, children, accessibilityState }) => {

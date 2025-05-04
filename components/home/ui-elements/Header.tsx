@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
   headerContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    paddingTop: 10,
+    paddingTop: 20,
     paddingLeft: 20,
     paddingRight: 20,
   },

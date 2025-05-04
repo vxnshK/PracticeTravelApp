@@ -22,7 +22,7 @@ function CarouselCard({carouselCountries}: any) {
         autoPlay={true}
         autoPlayInterval={4000}
         data={carouselCountries}
-        height={520}
+        height={400}
         width={430 * 0.75}
         pagingEnabled={true}
         snapEnabled={true}
@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
     borderRadius: 9
   },
   imageContainer: {
-    height: 500,
+    height: 380,
     width: 320,
     borderRadius: 20,
     filter: 'brightness(-1.95)'

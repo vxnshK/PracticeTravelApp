@@ -30,7 +30,7 @@ const renderItem = ({item}: any) => {
       </View>
       <View style={styles.imageContainer}>
         <ImageBackground
-          source={{uri: item.gallery[0], cache: 'force-cache'}}
+          source={{uri: item.gallery[1], cache: 'force-cache'}}
           style={styles.image}>
           <LinearGradient
             colors={['#00000000', '#000000']}

@@ -3,6 +3,7 @@ import {View, Text, StyleSheet, Image, ImageBackground} from 'react-native';
 import {ICarouselInstance} from 'react-native-reanimated-carousel';
 import LinearGradient from 'react-native-linear-gradient';
 import Carousel from 'react-native-reanimated-carousel';
+import Ionicons from '@react-native-vector-icons/ionicons';
 
 const renderItem = ({item}: any) => {
   return (
@@ -10,8 +11,11 @@ const renderItem = ({item}: any) => {
       <View style={styles.descContainer}>
         <Text style={styles.country}>{item.country}</Text>
         <Text style={styles.city}>{item.city}</Text>
-        <View style={styles.reviewContainer}>
-          <Text style={styles.reviews}>{item.reviews}</Text>
+        <View style={styles.ratingReviewContainer}>
+          <View style={styles.ratingsContainer}>
+            <Ionicons name="star-sharp" size={16} color={'#f29d0a'} />
+            <Text style={styles.ratings}>{item.ratings}</Text>
+          </View>
           <Text style={styles.reviewCount}>{item.reviewCount} reviews</Text>
         </View>
         <View style={styles.seeMoreContainer}>
@@ -91,26 +95,33 @@ const styles = StyleSheet.create({
     fontFamily: 'Gotham Bold',
     color: '#fff',
     fontSize: 20,
+    marginBottom: 5,
   },
   country: {
     fontFamily: 'Gotham Book',
     color: '#fff',
     fontSize: 15,
   },
-  reviewContainer: {
+  ratingReviewContainer: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 15
   },
-  reviews: {
-    fontFamily: 'Gotham Book',
-    color: '#fff',
-    fontSize: 13,
+  ratingsContainer: {
     borderWidth: 1,
     borderColor: '#7c8891',
     borderRadius: 100,
-    paddingHorizontal: 10,
-    paddingVertical: 3
+    paddingHorizontal: 13,
+    paddingVertical: 6,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 4
+  },
+  ratings: {
+    fontFamily: 'Gotham Book',
+    color: '#fff',
+    fontSize: 12,
   },
   reviewCount: {
     fontFamily: 'Gotham Book',
@@ -119,8 +130,8 @@ const styles = StyleSheet.create({
     opacity: 0.7,
   },
   seeMoreContainer: {
-    paddingTop: 10,
-    paddingBottom: 10.4,
+    paddingTop: 13,
+    paddingBottom: 13.4,
     flex:1,
     flexDirection: 'row',
     justifyContent: 'center',
@@ -131,8 +142,9 @@ const styles = StyleSheet.create({
   seeMoreText: {
     fontFamily: 'Gotham Book',
     color: '#fff',
-    fontSize: 13,
+    fontSize: 13.5,
     opacity: 0.7,
+    letterSpacing: -0.4,
   },
   imageContainer: {
     height: '100%',

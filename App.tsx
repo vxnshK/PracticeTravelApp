@@ -28,7 +28,7 @@ function App() {
                 backgroundColor: '#212528',
                 marginLeft: 'auto',
                 marginRight: 'auto',
-                // marginBottom: 30,
+                marginBottom: 30,
                 width: '90%',
                 paddingHorizontal: 9,
                 flexDirection: 'row',

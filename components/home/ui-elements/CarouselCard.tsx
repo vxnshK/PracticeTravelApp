@@ -1,13 +1,23 @@
 import * as React from 'react';
-import {View, Text, StyleSheet, Image} from 'react-native';
+import {View, Text, StyleSheet, Image, ImageBackground} from 'react-native';
 import {ICarouselInstance} from 'react-native-reanimated-carousel';
+import LinearGradient from 'react-native-linear-gradient';
 import Carousel from 'react-native-reanimated-carousel';
 
 const renderItem = ({item}: any) => {
   return (
     <View style={[styles.card]}>
       <Text style={styles.city}>{item.city}</Text>
-      <Image source={{uri: item.gallery[0]}} style={styles.imageContainer} />
+      <View style={styles.imageContainer}>
+        <ImageBackground
+          source={{uri: item.gallery[0], cache: 'force-cache'}}
+          style={styles.image}>
+          <LinearGradient
+            colors={['#00000000', '#000000']}
+            style={{height: '100%', width: '100%'}}
+          />
+        </ImageBackground>
+      </View>
     </View>
   );
 };
@@ -22,7 +32,7 @@ function CarouselCard({carouselCountries}: any) {
         autoPlay={true}
         autoPlayInterval={4000}
         data={carouselCountries}
-        height={400}
+        height={520}
         width={430 * 0.75}
         pagingEnabled={true}
         snapEnabled={true}
@@ -64,17 +74,21 @@ const styles = StyleSheet.create({
     bottom: 100,
     zIndex: 10,
     color: '#fff',
-    fontSize: 15,
-    backgroundColor: '#21252880',
+    fontSize: 20,
     paddingHorizontal: 18,
     paddingVertical: 4.5,
-    borderRadius: 9
+    borderRadius: 9,
   },
   imageContainer: {
-    height: 380,
-    width: 320,
+    height: '100%',
+    width: '100%',
     borderRadius: 20,
-    filter: 'brightness(-1.95)'
+  },
+  image: {
+    height: '100%',
+    width: '100%',
+    overflow: 'hidden',
+    borderRadius: 20,
   },
 });
 

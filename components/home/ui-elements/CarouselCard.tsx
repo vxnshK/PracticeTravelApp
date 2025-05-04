@@ -14,8 +14,8 @@ const renderItem = ({item}: any) => {
           <Text style={styles.reviews}>{item.reviews}</Text>
           <Text style={styles.reviewCount}>{item.reviewCount} reviews</Text>
         </View>
-        <View style={styles.seeMore}>
-          <Text>See More</Text>
+        <View style={styles.seeMoreContainer}>
+          <Text style={styles.seeMoreText}>See More</Text>
         </View>
       </View>
       <View style={styles.imageContainer}>
@@ -80,12 +80,12 @@ const styles = StyleSheet.create({
   descContainer: {
     position: 'absolute',
     left: 10,
-    bottom: 100,
+    bottom: 20,
     zIndex: 10,
     paddingHorizontal: 18,
-    paddingVertical: 4.5,
     flex: 1,
-    gap: 7,
+    gap: 8,
+    width: '95%'
   },
   city: {
     fontFamily: 'Gotham Bold',
@@ -118,7 +118,22 @@ const styles = StyleSheet.create({
     fontSize: 13,
     opacity: 0.7,
   },
-  seeMore: {},
+  seeMoreContainer: {
+    paddingTop: 10,
+    paddingBottom: 10.4,
+    flex:1,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    backgroundColor: '#ffffff20',
+    borderRadius: 100,
+    marginTop: 10,
+  },
+  seeMoreText: {
+    fontFamily: 'Gotham Book',
+    color: '#fff',
+    fontSize: 13,
+    opacity: 0.7,
+  },
   imageContainer: {
     height: '100%',
     width: '100%',

@@ -18,10 +18,15 @@ import PlaceGallery from './src/screens/PlaceGallery';
 const Tab = createBottomTabNavigator();
 const RootStack = createNativeStackNavigator({
   screens: {
-    Home: HomeScreen,
+    Home: {
+      screen: HomeScreen,
+      options: {
+        headerShown: false
+      }
+    },
     PlaceGallery: PlaceGallery,
     Settings: SettingsScreen
-  }
+  },
 });
 const Navigation = createStaticNavigation(RootStack);
 

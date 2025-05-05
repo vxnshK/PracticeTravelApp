@@ -1,21 +1,35 @@
 import React from 'react';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
-import { NavigationContainer } from '@react-navigation/native';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { TouchableWithoutFeedback, View } from 'react-native';
-import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import {TouchableWithoutFeedback, View} from 'react-native';
+
+import {SafeAreaProvider} from 'react-native-safe-area-context';
+
+import {createStaticNavigation, NavigationContainer} from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+
+import {GestureHandlerRootView} from 'react-native-gesture-handler';
+
 import Ionicons from '@react-native-vector-icons/ionicons';
 
 import HomeScreen from './src/screens/HomeScreen';
 import SettingsScreen from './src/screens/SettingsScreen';
+import PlaceGallery from './src/screens/PlaceGallery';
 
 const Tab = createBottomTabNavigator();
+const RootStack = createNativeStackNavigator({
+  screens: {
+    Home: HomeScreen,
+    PlaceGallery: PlaceGallery,
+    Settings: SettingsScreen
+  }
+});
+const Navigation = createStaticNavigation(RootStack);
 
 function App() {
   return (
     <SafeAreaProvider>
-      <GestureHandlerRootView style={{ flex: 1, backgroundColor: '#ffffff' }}>
-        <NavigationContainer>
+      <GestureHandlerRootView style={{flex: 1, backgroundColor: '#ffffff'}}>
+        {/* <NavigationContainer>
           <Tab.Navigator
             screenOptions={{
               headerShown: false,
@@ -33,32 +47,36 @@ function App() {
                 paddingBottom: 0,
                 height: 50,
               },
-              tabBarButton: ({ onPress, children, accessibilityState }) => {
+              tabBarButton: ({onPress, children, accessibilityState}) => {
                 const isSelected = accessibilityState?.selected;
-              
+
                 return (
-                  <TouchableWithoutFeedback style={{ justifyContent: 'center', }} onPress={onPress}>
+                  <TouchableWithoutFeedback
+                    style={{justifyContent: 'center'}}
+                    onPress={onPress}>
                     <View
                       style={{
                         backgroundColor: isSelected ? '#ffffff' : '#212528',
                         borderRadius: 100,
                         padding: 8,
                         alignItems: 'center',
-                      }}
-                    >
+                      }}>
                       {children}
                     </View>
                   </TouchableWithoutFeedback>
                 );
-              },              
-            }}
-          >
+              },
+            }}>
             <Tab.Screen
               name="Home"
               component={HomeScreen}
               options={{
-                tabBarIcon: ({ focused }) => (
-                  <Ionicons name="home-sharp" size={20} color={focused ? '#212528' : '#ffffff'} />
+                tabBarIcon: ({focused}) => (
+                  <Ionicons
+                    name="home-sharp"
+                    size={20}
+                    color={focused ? '#212528' : '#ffffff'}
+                  />
                 ),
               }}
             />
@@ -66,13 +84,18 @@ function App() {
               name="Settings"
               component={SettingsScreen}
               options={{
-                tabBarIcon: ({ focused }) => (
-                  <Ionicons name="settings-sharp" size={20} color={focused ? '#212528' : '#ffffff'} />
+                tabBarIcon: ({focused}) => (
+                  <Ionicons
+                    name="settings-sharp"
+                    size={20}
+                    color={focused ? '#212528' : '#ffffff'}
+                  />
                 ),
               }}
             />
           </Tab.Navigator>
-        </NavigationContainer>
+        </NavigationContainer> */}
+        <Navigation />
       </GestureHandlerRootView>
     </SafeAreaProvider>
   );

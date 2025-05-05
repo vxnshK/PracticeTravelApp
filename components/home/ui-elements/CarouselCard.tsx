@@ -26,7 +26,7 @@ const renderItem = ({item}: any) => {
           <Text style={styles.reviewCount}>{item.reviewCount} reviews</Text>
         </View>
 
-        <Pressable style={{ width: '100%' }} onPress={() => navigation.navigate('Settings')}>
+        <Pressable style={{ width: '100%' }} onPress={() => navigation.navigate('PlaceGallery')}>
           <View style={styles.seeMoreContainer}>
             <Text style={styles.seeMoreText}>See More</Text>
             <Ionicons

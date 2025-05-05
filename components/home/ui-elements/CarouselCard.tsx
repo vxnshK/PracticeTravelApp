@@ -1,11 +1,14 @@
 import * as React from 'react';
-import {View, Text, StyleSheet, Image, ImageBackground} from 'react-native';
+import {View, Text, StyleSheet, ImageBackground, Pressable} from 'react-native';
 import {ICarouselInstance} from 'react-native-reanimated-carousel';
 import LinearGradient from 'react-native-linear-gradient';
 import Carousel from 'react-native-reanimated-carousel';
 import Ionicons from '@react-native-vector-icons/ionicons';
+import { useNavigation } from '@react-navigation/native';
 
 const renderItem = ({item}: any) => {
+  const navigation = useNavigation();
+
   return (
     <View style={[styles.card]}>
       <Ionicons style={styles.isFav} name="heart-sharp" size={25} color={'#ffffff'} />
@@ -23,15 +26,17 @@ const renderItem = ({item}: any) => {
           <Text style={styles.reviewCount}>{item.reviewCount} reviews</Text>
         </View>
 
-        <View style={styles.seeMoreContainer}>
-          <Text style={styles.seeMoreText}>See More</Text>
-          <Ionicons
-            style={styles.seeMoreChevronForwardIcon}
-            name="chevron-forward-circle"
-            size={45}
-            color={'#ffffff'}
-          />
-        </View>
+        <Pressable style={{ width: '100%' }} onPress={() => navigation.navigate('Settings')}>
+          <View style={styles.seeMoreContainer}>
+            <Text style={styles.seeMoreText}>See More</Text>
+            <Ionicons
+              style={styles.seeMoreChevronForwardIcon}
+              name="chevron-forward-circle"
+              size={45}
+              color={'#ffffff'}
+            />
+          </View>
+        </Pressable>
       </View>
 
       <View style={styles.imageContainer}>

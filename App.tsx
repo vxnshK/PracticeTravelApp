@@ -6,7 +6,6 @@ import {
   createStaticNavigation,
 } from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
 
@@ -15,7 +14,6 @@ import SettingsScreen from './src/screens/SettingsScreen';
 import PlaceGallery from './src/screens/PlaceGallery';
 import BottomNavbar from './components/home/ui-elements/BottomNavbar';
 
-const Tab = createBottomTabNavigator();
 const RootStack = createNativeStackNavigator({
   screens: {
     Home: {

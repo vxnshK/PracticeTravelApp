@@ -1,11 +1,9 @@
 import React from 'react';
-import {TouchableWithoutFeedback, View} from 'react-native';
 
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 
 import {
   createStaticNavigation,
-  NavigationContainer,
 } from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';

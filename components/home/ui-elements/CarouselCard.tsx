@@ -52,11 +52,17 @@ const renderItem = ({item}: any) => {
         <Animated.Image
           source={{uri: item.gallery[1], cache: 'force-cache'}}
           style={styles.image}
-          sharedTransitionTag="tag" />
-          <LinearGradient
-            colors={['#00000000', '#000000']}
-            style={{height: '100%', width: '100%', position: 'absolute', bottom: 0}}
-          />
+          sharedTransitionTag="tag"
+        />
+        <LinearGradient
+          colors={['#00000000', '#000000']}
+          style={{
+            height: '100%',
+            width: '100%',
+            position: 'absolute',
+            bottom: 0,
+          }}
+        />
       </View>
     </View>
   );

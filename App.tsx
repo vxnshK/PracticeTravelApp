@@ -12,7 +12,6 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
 
-import Ionicons from '@react-native-vector-icons/ionicons';
 
 import HomeScreen from './src/screens/HomeScreen';
 import SettingsScreen from './src/screens/SettingsScreen';
@@ -104,23 +103,6 @@ function App() {
           </Tab.Navigator>
         </NavigationContainer> */}
         <Navigation />
-        <View
-          style={{
-            elevation: 0,
-            flexDirection: 'row',
-            justifyContent: 'space-between',
-            paddingHorizontal: 40,
-            paddingTop: 16,
-            paddingBottom: 30,
-            position: 'absolute',
-            bottom: 0,
-            width: '80%',
-          }}>
-          <Ionicons name="home" size={20} color={'#212528'} />
-          <Ionicons name="prism-sharp" size={20} color={'#212528'} />
-          <Ionicons name="paper-plane-outline" size={20} color={'#212528'} />
-          <Ionicons name="bag-check" size={20} color={'#212528'} />
-        </View>
       </GestureHandlerRootView>
     </SafeAreaProvider>
   );

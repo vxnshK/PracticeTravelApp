@@ -2,9 +2,7 @@ import React from 'react';
 
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 
-import {
-  createStaticNavigation,
-} from '@react-navigation/native';
+import {createStaticNavigation} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
 import {GestureHandlerRootView} from 'react-native-gesture-handler';

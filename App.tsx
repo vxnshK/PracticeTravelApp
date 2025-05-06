@@ -3,8 +3,11 @@ import {TouchableWithoutFeedback, View} from 'react-native';
 
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 
-import {createStaticNavigation, NavigationContainer} from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import {
+  createStaticNavigation,
+  NavigationContainer,
+} from '@react-navigation/native';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
@@ -21,11 +24,11 @@ const RootStack = createNativeStackNavigator({
     Home: {
       screen: HomeScreen,
       options: {
-        headerShown: false
-      }
+        headerShown: false,
+      },
     },
     PlaceGallery: PlaceGallery,
-    Settings: SettingsScreen
+    Settings: SettingsScreen,
   },
 });
 const Navigation = createStaticNavigation(RootStack);
@@ -101,6 +104,23 @@ function App() {
           </Tab.Navigator>
         </NavigationContainer> */}
         <Navigation />
+        <View
+          style={{
+            elevation: 0,
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            paddingHorizontal: 40,
+            paddingTop: 16,
+            paddingBottom: 30,
+            position: 'absolute',
+            bottom: 0,
+            width: '80%',
+          }}>
+          <Ionicons name="home" size={20} color={'#212528'} />
+          <Ionicons name="prism-sharp" size={20} color={'#212528'} />
+          <Ionicons name="paper-plane-outline" size={20} color={'#212528'} />
+          <Ionicons name="bag-check" size={20} color={'#212528'} />
+        </View>
       </GestureHandlerRootView>
     </SafeAreaProvider>
   );

@@ -12,10 +12,10 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
 
-
 import HomeScreen from './src/screens/HomeScreen';
 import SettingsScreen from './src/screens/SettingsScreen';
 import PlaceGallery from './src/screens/PlaceGallery';
+import BottomNavbar from './components/home/ui-elements/BottomNavbar';
 
 const Tab = createBottomTabNavigator();
 const RootStack = createNativeStackNavigator({
@@ -103,6 +103,7 @@ function App() {
           </Tab.Navigator>
         </NavigationContainer> */}
         <Navigation />
+        <BottomNavbar />
       </GestureHandlerRootView>
     </SafeAreaProvider>
   );

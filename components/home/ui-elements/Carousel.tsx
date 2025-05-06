@@ -34,7 +34,7 @@ export default function Carousel() {
 
 const styles = StyleSheet.create({
   carouselContainer: {
-    paddingTop: 20,
+    paddingTop: 40,
     paddingLeft: 20,
     paddingRight: 20,
   }

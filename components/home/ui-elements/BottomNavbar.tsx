@@ -6,10 +6,10 @@ const BottomNavbar = () => {
   return (
     <View>
       <View style={styles.bottomNavbarContainer}>
-        <Ionicons name="home" size={20} color={'#212528'} />
-        <Ionicons name="prism-sharp" size={20} color={'#212528'} />
-        <Ionicons name="paper-plane-outline" size={20} color={'#212528'} />
-        <Ionicons name="bag-check" size={20} color={'#212528'} />
+        <Ionicons name="home" size={20} color={'#fff'} />
+        <Ionicons name="prism-sharp" size={20} color={'#fff'} />
+        <Ionicons name="paper-plane" size={20} color={'#fff'} />
+        <Ionicons name="bag-check" size={20} color={'#fff'} />
       </View>
     </View>
   );
@@ -23,10 +23,13 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     paddingHorizontal: 40,
-    paddingTop: 16,
-    paddingBottom: 30,
+    paddingVertical: 18,
     position: 'absolute',
     bottom: 0,
-    width: '80%',
+    width: '88%',
+    backgroundColor: '#212528',
+    borderRadius: 100,
+    marginBottom: 25,
+    marginHorizontal: '6%'
   },
 });

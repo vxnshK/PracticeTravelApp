@@ -1,17 +1,24 @@
 import * as React from 'react';
 import {View, Text, StyleSheet, ImageBackground, Pressable} from 'react-native';
-import {ICarouselInstance} from 'react-native-reanimated-carousel';
+
+import {useNavigation} from '@react-navigation/native';
+import Animated from 'react-native-reanimated';
+import Carousel, {ICarouselInstance} from 'react-native-reanimated-carousel';
 import LinearGradient from 'react-native-linear-gradient';
-import Carousel from 'react-native-reanimated-carousel';
+
 import Ionicons from '@react-native-vector-icons/ionicons';
-import { useNavigation } from '@react-navigation/native';
 
 const renderItem = ({item}: any) => {
   const navigation = useNavigation();
 
   return (
     <View style={[styles.card]}>
-      <Ionicons style={styles.isFav} name="heart-sharp" size={25} color={'#ffffff'} />
+      <Ionicons
+        style={styles.isFav}
+        name="heart-sharp"
+        size={25}
+        color={'#ffffff'}
+      />
 
       <View style={styles.descContainer}>
         <Text style={styles.country}>{item.country}</Text>
@@ -26,7 +33,9 @@ const renderItem = ({item}: any) => {
           <Text style={styles.reviewCount}>{item.reviewCount} reviews</Text>
         </View>
 
-        <Pressable style={{ width: '100%' }} onPress={() => navigation.navigate('PlaceGallery')}>
+        <Pressable
+          style={{width: '100%'}}
+          onPress={() => navigation.navigate('PlaceGallery')}>
           <View style={styles.seeMoreContainer}>
             <Text style={styles.seeMoreText}>See More</Text>
             <Ionicons
@@ -40,14 +49,14 @@ const renderItem = ({item}: any) => {
       </View>
 
       <View style={styles.imageContainer}>
-        <ImageBackground
+        <Animated.Image
           source={{uri: item.gallery[1], cache: 'force-cache'}}
-          style={styles.image}>
+          style={styles.image}
+          sharedTransitionTag="tag" />
           <LinearGradient
             colors={['#00000000', '#000000']}
-            style={{height: '100%', width: '100%'}}
+            style={{height: '100%', width: '100%', position: 'absolute', bottom: 0}}
           />
-        </ImageBackground>
       </View>
     </View>
   );
@@ -187,6 +196,7 @@ const styles = StyleSheet.create({
     height: '100%',
     width: '100%',
     borderRadius: 20,
+    overflow: 'hidden',
   },
   image: {
     height: '100%',

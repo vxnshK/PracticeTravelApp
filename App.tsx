@@ -23,7 +23,7 @@ const RootStack = createNativeStackNavigator({
     PlaceGallery: {
       screen: PlaceGallery,
       options: {
-        title: '',
+        headerShown: false,
       },
     },
     Settings: SettingsScreen,

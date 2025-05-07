@@ -5,16 +5,27 @@ import {SafeAreaView} from 'react-native-safe-area-context';
 
 import Ionicons from '@react-native-vector-icons/ionicons';
 import GalleryGrid from '../../components/placeGallery/GalleryGrid';
-import { ScrollView } from 'react-native-gesture-handler';
+import {ScrollView} from 'react-native-gesture-handler';
+import { useNavigation } from '@react-navigation/native';
 
 export default function PlaceGallery({route}: any) {
   const {item} = route.params;
+  const navigation = useNavigation();
 
   return (
     <SafeAreaView style={styles.placeGalleryContainer}>
+      <Ionicons
+        style={styles.seeMoreChevronBackIcon}
+        name="chevron-back-circle"
+        size={40}
+        color={'#ffffff'}
+        onPress={() => {
+          navigation.goBack()
+        }}
+      />
+
       <Image source={{uri: item.gallery[0]}} style={styles.image} />
       <ScrollView style={styles.dataContainer}>
-        
         <View style={styles.ratingCityContainer}>
           <Text style={styles.city}>{item.city}</Text>
           <View style={styles.ratingsContainer}>
@@ -42,6 +53,12 @@ export default function PlaceGallery({route}: any) {
 const styles = StyleSheet.create({
   placeGalleryContainer: {
     backgroundColor: '#fff',
+  },
+  seeMoreChevronBackIcon: {
+    position: 'absolute',
+    left: 15,
+    top: 30,
+    zIndex: 10,
   },
   image: {
     height: 450,
@@ -111,6 +128,5 @@ const styles = StyleSheet.create({
     fontFamily: 'Gotham Book',
     fontSize: 14.5,
     lineHeight: 20,
-
-  }
+  },
 });

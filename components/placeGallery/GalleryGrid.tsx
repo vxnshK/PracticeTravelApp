@@ -19,15 +19,18 @@ export default function GalleryGrid({gallery}: any) {
 
 const styles = StyleSheet.create({
   galleryGridContainer: {
-    marginTop: 40,
+    marginTop: 20,
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    alignItems: 'center',
+    paddingBottom: 120
   },
   row: {
-    flexWrap: 'wrap',
-    marginBottom: 10,
+    margin: 5
   },
   image: {
-    width: 170,
-    height: 170,
+    width: 165,
+    height: 165,
     borderRadius: 10,
   },
 });

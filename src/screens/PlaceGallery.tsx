@@ -3,8 +3,6 @@ import {StyleSheet, View, Text, Image} from 'react-native';
 
 import {SafeAreaView} from 'react-native-safe-area-context';
 
-import {ScrollView} from 'react-native-gesture-handler';
-
 import Ionicons from '@react-native-vector-icons/ionicons';
 import GalleryGrid from '../../components/placeGallery/GalleryGrid';
 
@@ -14,7 +12,7 @@ export default function PlaceGallery({route}: any) {
   return (
     <SafeAreaView style={styles.placeGalleryContainer}>
       <Image source={{uri: item.gallery[0]}} style={styles.image} />
-      <ScrollView style={styles.dataContainer}>
+      <View style={styles.dataContainer}>
         
         <View style={styles.ratingCityContainer}>
           <Text style={styles.city}>{item.city}</Text>
@@ -35,7 +33,7 @@ export default function PlaceGallery({route}: any) {
         <Text style={styles.description}>{item.description}</Text>
 
         <GalleryGrid gallery={item.gallery} />
-      </ScrollView>
+      </View>
     </SafeAreaView>
   );
 }

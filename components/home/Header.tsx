@@ -11,7 +11,7 @@ export default function Header() {
 
       <View>
         <Image
-          source={require('../../../assets/images/avatar.png')}
+          source={require('../../assets/images/avatar.png')}
           style={{width: 55, height: 55, borderRadius: 50}}
         />
       </View>

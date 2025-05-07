@@ -1,50 +1,27 @@
 import React from "react";
-import { View, FlatList, Dimensions, StyleSheet } from "react-native";
-import Animated, {
-  FadeIn,
-  useAnimatedStyle,
-  withSpring,
-  useSharedValue,
-} from "react-native-reanimated";
-import { Image } from "react-native";
+import { View, Image, Dimensions, StyleSheet, ScrollView } from "react-native";
 
 const numColumns = 2;
 const screenWidth = Dimensions.get("window").width;
 const imageSize = screenWidth / numColumns;
 
-const GalleryGrid = ({ gallery }: any) => {
-  const renderItem = ({ item }: { item: string }) => {
-    const scale = useSharedValue(0.8);
-
-    const animatedStyle = useAnimatedStyle(() => ({
-      transform: [{ scale: withSpring(scale.value) }],
-    }));
-
-    React.useEffect(() => {
-      scale.value = 1;
-    }, []);
-
-    return (
-      <Animated.View entering={FadeIn.duration(400)} style={[styles.imageWrapper, animatedStyle]}>
-        <Image source={{ uri: item }} style={styles.image} />
-      </Animated.View>
-    );
-  };
-
+const GalleryGrid = ({ gallery }: { gallery: string[] }) => {
   return (
-    <FlatList
-      data={gallery}
-      keyExtractor={(item, index) => item + index}
-      numColumns={numColumns}
-      renderItem={renderItem}
-      contentContainerStyle={styles.container}
-    />
+    <ScrollView style={styles.grid}>
+      {gallery.map((uri, index) => (
+        <View key={index} style={styles.imageWrapper}>
+          <Image source={{ uri }} style={styles.image} />
+        </View>
+      ))}
+    </ScrollView>
   );
 };
 
 const styles = StyleSheet.create({
-  container: {
-    paddingVertical: 12,
+  grid: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    marginTop: 16,
   },
   imageWrapper: {
     width: imageSize,
@@ -52,8 +29,10 @@ const styles = StyleSheet.create({
     padding: 4,
   },
   image: {
-    flex: 1,
+    width: "100%",
+    height: "100%",
     borderRadius: 8,
+    resizeMode: "cover",
   },
 });
 

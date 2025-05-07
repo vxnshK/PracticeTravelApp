@@ -10,8 +10,6 @@ import { ScrollView } from 'react-native-gesture-handler';
 export default function PlaceGallery({route}: any) {
   const {item} = route.params;
 
-  const doubledGallery = [...item.gallery, ...item.gallery, ...item.gallery];
-
   return (
     <SafeAreaView style={styles.placeGalleryContainer}>
       <Image source={{uri: item.gallery[0]}} style={styles.image} />
@@ -35,7 +33,7 @@ export default function PlaceGallery({route}: any) {
 
         <Text style={styles.description}>{item.description}</Text>
 
-        <GalleryGrid gallery={doubledGallery} />
+        <GalleryGrid gallery={item.gallery} />
       </ScrollView>
     </SafeAreaView>
   );

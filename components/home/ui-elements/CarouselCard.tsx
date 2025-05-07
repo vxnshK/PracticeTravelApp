@@ -1,8 +1,7 @@
 import * as React from 'react';
-import {View, Text, StyleSheet, ImageBackground, Pressable} from 'react-native';
+import {View, Text, StyleSheet, Pressable, Image} from 'react-native';
 
 import {useNavigation} from '@react-navigation/native';
-import Animated from 'react-native-reanimated';
 import Carousel, {ICarouselInstance} from 'react-native-reanimated-carousel';
 import LinearGradient from 'react-native-linear-gradient';
 
@@ -49,10 +48,9 @@ const renderItem = ({item}: any) => {
       </View>
 
       <View style={styles.imageContainer}>
-        <Animated.Image
+        <Image
           source={{uri: item.gallery[1], cache: 'force-cache'}}
           style={styles.image}
-          sharedTransitionTag="tag"
         />
         <LinearGradient
           colors={['#00000000', '#000000']}

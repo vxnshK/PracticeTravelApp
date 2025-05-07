@@ -9,6 +9,8 @@ import GalleryGrid from '../../components/placeGallery/GalleryGrid';
 export default function PlaceGallery({route}: any) {
   const {item} = route.params;
 
+  const doubledGallery = [...item.gallery, ...item.gallery, ...item.gallery];
+
   return (
     <SafeAreaView style={styles.placeGalleryContainer}>
       <Image source={{uri: item.gallery[0]}} style={styles.image} />
@@ -32,7 +34,7 @@ export default function PlaceGallery({route}: any) {
 
         <Text style={styles.description}>{item.description}</Text>
 
-        <GalleryGrid gallery={item.gallery} />
+        <GalleryGrid gallery={doubledGallery} />
       </View>
     </SafeAreaView>
   );
@@ -41,7 +43,6 @@ export default function PlaceGallery({route}: any) {
 const styles = StyleSheet.create({
   placeGalleryContainer: {
     backgroundColor: '#fff',
-    flex: 1,
   },
   image: {
     height: 450,
@@ -50,12 +51,12 @@ const styles = StyleSheet.create({
     top: -100,
   },
   dataContainer: {
-    position: 'absolute',
-    top: 250,
+    marginTop: 250,
     width: '100%',
     backgroundColor: '#ffffff',
     paddingHorizontal: 28,
-    paddingVertical: 24,
+    paddingTop: 24,
+    paddingBottom: 500,
     borderTopLeftRadius: 40,
     borderTopRightRadius: 40,
   },

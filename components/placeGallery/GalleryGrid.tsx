@@ -1,39 +1,22 @@
-import React from "react";
-import { View, Image, Dimensions, StyleSheet, ScrollView } from "react-native";
+import {Image, StyleSheet, View} from 'react-native';
+import React from 'react';
+import {FlatList} from 'react-native-gesture-handler';
 
-const numColumns = 2;
-const screenWidth = Dimensions.get("window").width;
-const imageSize = screenWidth / numColumns;
-
-const GalleryGrid = ({ gallery }: { gallery: string[] }) => {
+export default function GalleryGrid({gallery}: any) {
   return (
-    <ScrollView style={styles.grid}>
-      {gallery.map((uri, index) => (
-        <View key={index} style={styles.imageWrapper}>
-          <Image source={{ uri }} style={styles.image} />
-        </View>
-      ))}
-    </ScrollView>
+    <FlatList
+      data={gallery}
+      numColumns={2}
+      style={{width: '100%'}}
+      renderItem={({item}) => (
+        <Image
+          source={{uri: item}}
+          style={{width: 150, height: 150, margin: 5, borderRadius: 10}}
+        />
+      )}
+      keyExtractor={(item, index) => item + index}
+    />
   );
-};
+}
 
-const styles = StyleSheet.create({
-  grid: {
-    flexDirection: "row",
-    flexWrap: "wrap",
-    marginTop: 16,
-  },
-  imageWrapper: {
-    width: imageSize,
-    height: imageSize,
-    padding: 4,
-  },
-  image: {
-    width: "100%",
-    height: "100%",
-    borderRadius: 8,
-    resizeMode: "cover",
-  },
-});
-
-export default GalleryGrid;
+const styles = StyleSheet.create({});

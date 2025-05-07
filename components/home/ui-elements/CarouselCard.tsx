@@ -34,7 +34,9 @@ const renderItem = ({item}: any) => {
 
         <Pressable
           style={{width: '100%'}}
-          onPress={() => navigation.navigate('PlaceGallery')}>
+          onPress={() => navigation.navigate('PlaceGallery', {
+            item
+          })}>
           <View style={styles.seeMoreContainer}>
             <Text style={styles.seeMoreText}>See More</Text>
             <Ionicons
@@ -49,7 +51,7 @@ const renderItem = ({item}: any) => {
 
       <View style={styles.imageContainer}>
         <Image
-          source={{uri: item.gallery[1], cache: 'force-cache'}}
+          source={{uri: item.gallery[0], cache: 'force-cache'}}
           style={styles.image}
         />
         <LinearGradient

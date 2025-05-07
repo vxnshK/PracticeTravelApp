@@ -20,7 +20,12 @@ const RootStack = createNativeStackNavigator({
         headerShown: false,
       },
     },
-    PlaceGallery: PlaceGallery,
+    PlaceGallery: {
+      screen: PlaceGallery,
+      options: {
+        title: '',
+      },
+    },
     Settings: SettingsScreen,
   },
 });

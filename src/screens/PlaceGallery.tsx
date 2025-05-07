@@ -1,17 +1,20 @@
-import { StyleSheet, Image, View } from 'react-native'
-import React from 'react'
+import React from 'react';
+import {StyleSheet, View, Text, Image} from 'react-native';
 
-export default function PlaceGallery() {
-  
+export default function PlaceGallery({route}: any) {
+  const {item} = route.params;
+
   return (
     <View>
-      {/* resize into this image */}
-      <Image
-        source={{ uri: 'https://picsum.photos/id/39/200' }}
-        style={{ width: 100, height: 100 }}
-      />
+      <Image source={{ uri: item.gallery[0] }} style={styles.image} />
+      <Text>{item.country}</Text>
     </View>
-  )
+  );
 }
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  image: {
+    height: 300,
+    width: '100%',
+  }
+});

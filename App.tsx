@@ -10,7 +10,7 @@ import {GestureHandlerRootView} from 'react-native-gesture-handler';
 import HomeScreen from './src/screens/HomeScreen';
 import SettingsScreen from './src/screens/SettingsScreen';
 import PlaceGallery from './src/screens/PlaceGallery';
-import BottomNavbar from './components/home/ui-elements/BottomNavbar';
+import BottomNavbar from './components/common/BottomNavbar';
 
 const RootStack = createNativeStackNavigator({
   screens: {

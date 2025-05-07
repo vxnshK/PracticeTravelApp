@@ -6,6 +6,7 @@ import {SafeAreaView} from 'react-native-safe-area-context';
 import {ScrollView} from 'react-native-gesture-handler';
 
 import Ionicons from '@react-native-vector-icons/ionicons';
+import GalleryGrid from '../../components/placeGallery/GalleryGrid';
 
 export default function PlaceGallery({route}: any) {
   const {item} = route.params;
@@ -33,6 +34,7 @@ export default function PlaceGallery({route}: any) {
 
         <Text style={styles.description}>{item.description}</Text>
 
+        <GalleryGrid gallery={item.gallery} />
       </ScrollView>
     </SafeAreaView>
   );
@@ -97,7 +99,7 @@ const styles = StyleSheet.create({
   },
   country: {
     fontFamily: 'Gotham Medium',
-    fontSize: 15,
+    fontSize: 16,
   },
   reviewCount: {
     fontFamily: 'Gotham Medium',
@@ -109,8 +111,8 @@ const styles = StyleSheet.create({
   },
   description: {
     fontFamily: 'Gotham Book',
-    fontSize: 16,
-    lineHeight: 18,
+    fontSize: 14.5,
+    lineHeight: 20,
 
   }
 });

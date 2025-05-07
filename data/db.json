@@ -3,7 +3,7 @@
     "country": "Italy",
     "city": "Rome",
     "flag": "🇮🇹",
-    "description": "The Eternal City, where ancient ruins and Renaissance art collide beautifully.",
+    "description": "Rome, the Eternal City 🇮🇹, blends ancient history with vibrant street life. Explore iconic landmarks like the Colosseum, Trevi Fountain, and St. Peter’s Basilica. Stroll through charming piazzas, savor authentic Italian gelato, and discover hidden gems around every cobbled corner. A timeless destination perfect for history buffs, food lovers, and art enthusiasts.",
     "gallery": [
       "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746251310/pexels-photo-3314307_wlhebk.jpg",
       "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746251310/pexels-photo-2760519_cd6ogh.jpg",
@@ -97,12 +97,12 @@
     "flag": "https://flagcdn.com/es.svg",
     "description": "A vibrant seaside city known for Gaudí’s architecture, art, and tapas culture.",
     "gallery": [
-     "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252633/pexels-orlovamaria-4947788_geuw1a.jpg",
-     "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252636/pexels-enricoperini-705423_bhu9s8.jpg",
-     "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252637/pexels-oidonnyboy-5282585_ag7yff.jpg",
-     "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252638/pexels-jeffrey-czum-254391-3499174_gsdn2u.jpg",
-     "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252638/pexels-alina-rossoshanska-338724645-31869474_mv7yfc.jpg",
-     "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252638/pexels-fahad-alani-789729-1695106_tzobwt.jpg"
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252633/pexels-orlovamaria-4947788_geuw1a.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252636/pexels-enricoperini-705423_bhu9s8.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252637/pexels-oidonnyboy-5282585_ag7yff.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252638/pexels-jeffrey-czum-254391-3499174_gsdn2u.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252638/pexels-alina-rossoshanska-338724645-31869474_mv7yfc.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252638/pexels-fahad-alani-789729-1695106_tzobwt.jpg"
     ],
     "isFav": true,
     "package": {
@@ -145,13 +145,13 @@
     "flag": "https://flagcdn.com/de.svg",
     "description": "The dynamic German capital filled with history, culture, and modern creativity.",
     "gallery": [
-     "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252978/pexels-lilli-waugh-1263917-2407196_bhzljd.jpg",
-     "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252982/pexels-markusspiske-1268131_bnvfdv.jpg",
-     "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252981/pexels-leventsimsek-29087245_jxr8xw.jpg",
-     "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252981/pexels-blue-18105084_apccqh.jpg",
-     "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252978/pexels-vlado-paunovic-1567547-3067336_klzxj7.jpg",
-     "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252961/pexels-seven11nash-624363_siuflh.jpg",
-     "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252961/pexels-abdel-rahman-abu-baker-958112-1963081_aoyzsc.jpg"
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252978/pexels-lilli-waugh-1263917-2407196_bhzljd.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252982/pexels-markusspiske-1268131_bnvfdv.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252981/pexels-leventsimsek-29087245_jxr8xw.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252981/pexels-blue-18105084_apccqh.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252978/pexels-vlado-paunovic-1567547-3067336_klzxj7.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252961/pexels-seven11nash-624363_siuflh.jpg",
+      "https://res.cloudinary.com/doj2vzd5k/image/upload/v1746252961/pexels-abdel-rahman-abu-baker-958112-1963081_aoyzsc.jpg"
     ],
     "isFav": true,
     "package": {
@@ -346,7 +346,6 @@
     "continent": "Europe"
   },
 
-  
   {
     "country": "India",
     "city": "New Delhi",
@@ -743,7 +742,6 @@
     "continent": "Asia"
   },
 
-
   {
     "country": "USA",
     "city": "New York",
@@ -1125,7 +1123,6 @@
     "continent": "North America"
   },
 
-
   {
     "country": "Brazil",
     "city": "Rio de Janeiro",
@@ -1412,7 +1409,6 @@
     "continent": "South America"
   },
 
-
   {
     "country": "Morocco",
     "city": "Marrakech",
@@ -1661,7 +1657,6 @@
     "continent": "Africa"
   },
 
-
   {
     "country": "Australia",
     "city": "Sydney",
@@ -1909,7 +1904,6 @@
     "reviewCount": 270,
     "continent": "Oceania"
   },
-
 
   {
     "country": "Antarctica",

@@ -1,7 +1,7 @@
 import {StyleSheet, View} from 'react-native';
 import React, {useMemo, useState} from 'react';
 import Pills from './Pills';
-import DB from '../../../data/db.json';
+import DB from '../../data/db.json';
 import CarouselCard from './CarouselCard';
 
 export default function Carousel() {

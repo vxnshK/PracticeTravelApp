@@ -1,9 +1,9 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
-import Header from '../../components/home/ui-elements/Header';
-import SearchInput from '../../components/home/ui-elements/SearchInput';
-import SubHeader from '../../components/home/ui-elements/SubHeader';
-import Carousel from '../../components/home/ui-elements/Carousel';
+import Header from '../../components/home/Header';
+import SearchInput from '../../components/home/SearchInput';
+import SubHeader from '../../components/home/SubHeader';
+import Carousel from '../../components/home/Carousel';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import FadeWrapper from '../Wrappers/FadeWrapper';
 

@@ -2,22 +2,15 @@ import React from 'react';
 import {Image, StyleSheet, View} from 'react-native';
 
 export default function GalleryGrid({gallery}: any) {
-  const rows = [];
-  for (let i = 0; i < gallery.length; i += 2) {
-    rows.push(gallery.slice(i, i + 2));
-  }
-
   return (
     <View style={styles.galleryGridContainer}>
-      {rows.map((row, rowIndex) => (
+      {gallery.map((item: string, rowIndex: number) => (
         <View key={rowIndex} style={styles.row}>
-          {row.map((item, colIndex) => (
-            <Image
-              key={item + colIndex}
-              source={{uri: item}}
-              style={styles.image}
-            />
-          ))}
+          <Image
+            key={item + rowIndex}
+            source={{uri: item}}
+            style={styles.image}
+          />
         </View>
       ))}
     </View>
@@ -29,13 +22,12 @@ const styles = StyleSheet.create({
     marginTop: 40,
   },
   row: {
-    flexDirection: 'row',
-    justifyContent: 'space-around',
+    flexWrap: 'wrap',
     marginBottom: 10,
   },
   image: {
-    width: 150,
-    height: 150,
+    width: 170,
+    height: 170,
     borderRadius: 10,
   },
 });

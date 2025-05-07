@@ -34,6 +34,7 @@ const renderItem = ({item}: any) => {
 
         <Pressable
           style={{width: '100%'}}
+          // @ts-ignore
           onPress={() => navigation.navigate('PlaceGallery', {
             item
           })}>

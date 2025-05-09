@@ -16,7 +16,7 @@ const renderItem = ({item}: any) => {
         style={styles.isFav}
         name="heart-sharp"
         size={25}
-        color={'#ffffff'}
+        color={'#9a0000'}
       />
 
       <View style={styles.descContainer}>
@@ -120,7 +120,7 @@ const styles = StyleSheet.create({
     top: 20,
     zIndex: 10,
     borderWidth: 1,
-    borderColor: '#ffffff',
+    borderColor: '#9a0000',
     borderRadius: 100,
     padding: 5,
   },

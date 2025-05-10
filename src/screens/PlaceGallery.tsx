@@ -30,7 +30,8 @@ export default function PlaceGallery({route}: any) {
         size={13}
         color={'#ffffff'}
         onPress={() => {
-          navigation.goBack()
+          // @ts-ignore
+          navigation.navigate('StreetView')
         }}
       />
 

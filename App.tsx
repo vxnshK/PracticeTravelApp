@@ -11,6 +11,7 @@ import HomeScreen from './src/screens/HomeScreen';
 import SettingsScreen from './src/screens/SettingsScreen';
 import PlaceGallery from './src/screens/PlaceGallery';
 import BottomNavbar from './components/common/BottomNavbar';
+import StreetView from './src/screens/StreetView';
 
 const RootStack = createNativeStackNavigator({
   screens: {
@@ -22,6 +23,12 @@ const RootStack = createNativeStackNavigator({
     },
     PlaceGallery: {
       screen: PlaceGallery,
+      options: {
+        headerShown: false,
+      },
+    },
+    streetViewScreen: {
+      screen: StreetView,
       options: {
         headerShown: false,
       },

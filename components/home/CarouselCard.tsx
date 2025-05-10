@@ -13,10 +13,10 @@ const renderItem = ({item}: any) => {
   return (
     <View style={[styles.card]}>
       <Ionicons
-        style={styles.isFav}
+        style={item.isFav ? [styles.isFav, styles.isFavTrue] : styles.isFav}
         name="heart-sharp"
         size={25}
-        color={'#9a0000'}
+        color={item.isFav ? '#f52059' : '#ffffff'}
       />
 
       <View style={styles.descContainer}>
@@ -120,9 +120,12 @@ const styles = StyleSheet.create({
     top: 20,
     zIndex: 10,
     borderWidth: 1,
-    borderColor: '#9a0000',
+    borderColor: '#ffffff',
     borderRadius: 100,
     padding: 5,
+  },
+  isFavTrue: {
+    borderColor: '#f52059',
   },
   descContainer: {
     position: 'absolute',

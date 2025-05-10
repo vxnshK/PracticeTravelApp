@@ -24,6 +24,16 @@ export default function PlaceGallery({route}: any) {
         }}
       />
 
+      <Ionicons
+        style={styles.navigateIcon}
+        name="navigate"
+        size={13}
+        color={'#ffffff'}
+        onPress={() => {
+          navigation.goBack()
+        }}
+      />
+
       <Image source={{uri: item.gallery[0]}} style={styles.image} />
       <ScrollView style={styles.dataContainer}>
         <View style={styles.ratingCityContainer}>
@@ -59,6 +69,15 @@ const styles = StyleSheet.create({
     left: 15,
     top: 30,
     zIndex: 10,
+  },
+  navigateIcon: {
+    position: 'absolute',
+    right: 15,
+    top: 30,
+    zIndex: 10,
+    backgroundColor: '#212529',
+    padding: 10,
+    borderRadius: 100
   },
   image: {
     height: 450,

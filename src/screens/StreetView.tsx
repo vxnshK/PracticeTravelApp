@@ -10,7 +10,7 @@ const YourComponent = () => (
       coordinate={{
         latitude: 37.7749,
         longitude: -122.4194,
-        radius: 50, // Search radius in meters
+        radius: 50,
       }}
     />
   </View>
@@ -19,13 +19,12 @@ const YourComponent = () => (
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#000', // Optional, to prevent white flash behind map
     justifyContent: 'center',
     alignItems: 'center',
   },
   streetView: {
-    width: '100%',
-    height: '100%',
+    width: '80%',
+    height: '80%',
   },
 });
 

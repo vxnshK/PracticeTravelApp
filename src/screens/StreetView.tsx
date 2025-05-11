@@ -10,7 +10,6 @@ const YourComponent = () => (
       coordinate={{
         latitude: 37.7749,
         longitude: -122.4194,
-        radius: 50,
       }}
     />
   </View>
